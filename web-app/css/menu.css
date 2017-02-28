@@ -1,0 +1,8 @@
+.elurikkus-menu {
+    padding: 1em;
+    width: 100%;
+}
+
+.elurikkus-menu__brand > img {
+    height: 3em;
+}
