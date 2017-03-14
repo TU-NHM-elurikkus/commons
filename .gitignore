@@ -1,0 +1,5 @@
+target/*
+grails-elurikkus-commons-*
+web-app/WEB-INF/*
+plugin.xml
+.DS_Store
