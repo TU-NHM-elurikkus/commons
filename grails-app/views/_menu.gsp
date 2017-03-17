@@ -29,5 +29,13 @@
                 </a>
             </h2>
         </span>
+
+        <span class="submenu">
+            <h2 class="submenu__item">
+                <a href="http://ala-test.ut.ee/collectory">
+                    Collections
+                </a>
+            </h2>
+        </span>
     </nav>
 </header>
