@@ -1,11 +1,26 @@
 modules = {
     menu {
-        resource url: [dir: 'css', file: 'menu.css', plugin: 'elurikkus-commons'], disposition: 'defer'
+        dependsOn 'commons'
+        resource id: 'menu-style', url: [dir: 'css', file: 'menu.css', plugin: 'elurikkus-commons'], disposition: 'head'
     }
 
     commons {
-        resource url: [dir: 'css', file: 'elurikkus.css', plugin: 'elurikkus-commons'], disposition: 'defer'
-        // Rename it.
-        resource url: [dir: 'css', file: 'elurikkus-cms.css', plugin: 'elurikkus-commons'], disposition: 'defer'
+        dependsOn 'bootstrap';
+        resource id: 'elurikkus-ala-style', url: [dir: 'css', file: 'elurikkus.css', plugin: 'elurikkus-commons'], disposition: 'head'
+        resource id: 'elurikkus-common-style', url: [dir: 'css', file: 'elurikkus-common.css', plugin: 'elurikkus-commons'], disposition: 'head'
+    }
+
+    // Tooltips required by Bootstrap 4.
+    tether {
+        resource id: 'tether-script', url: [dir: 'js', file: 'tether.min.js'], disposition: 'head'
+        resource id: 'tether-style', url: [dir: 'css', file: 'tether.min.css'], disposition: 'head'
+    }
+
+    // Bootstrap 4.
+    bootstrap {
+        dependsOn 'tether'
+        resource id: 'bootstrap-script', url: [dir: 'js', file: 'bootstrap.min.js'], disposition: 'head'
+        resource id: 'bootstrap-style', url: [dir: 'css', file: 'bootstrap.min.css', attrs: [media: 'screen, projection, print']]
+        resource id: 'bootstrap-grid', url: [dir: 'css', file: 'bootstrap-grid.min.css', attrs: [media: 'screen, projection, print']]
     }
 }
