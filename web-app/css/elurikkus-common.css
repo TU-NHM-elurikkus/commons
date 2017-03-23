@@ -135,6 +135,11 @@ form label {
     padding: 1px 0
 }
 
+/* XXX Bootstrap hack. Don't bring them in here. */
+label {
+    margin-bottom: 0;
+}
+
 input, select, .btn {
     height: 30px
 }
@@ -293,16 +298,31 @@ select[multiple] {
     border-left-width: 0
 }
 
+/* WIP */
+.input-wrapper {
+    display: flex;
+}
+
+/* WIP */
+.input-wrapper__input {
+    width: 100%;
+}
+
+/* WIP */
+.input-wrapper__addon {
+    border-radius: 0 7px 7px 0
+}
+
 .input-btn > * {
     float: left
 }
 
-.input-btn > *: first-child {
+.input-btn > *:first-child {
     border-radius: 1px 0 0 1px;
     border-right-width: 0
 }
 
-.input-btn > *: last-child {
+.input-btn > *:last-child {
     border-radius: 0 7px 7px 0
 }
 
@@ -581,7 +601,8 @@ ol.search__predefined-searches > li > a {
     width: 100%;
     flex-wrap: wrap;
     max-width: 1250px;
-    clear: both
+    clear: both;
+    margin-bottom: 16px; /* WIP */
 }
 
 .header--center {
@@ -676,5 +697,3 @@ ol.search__predefined-searches > li > a {
     font-size: 16px;
     text-shadow: 0px 0px 8px rgba(255, 255, 255, .8)
 }
-
-
