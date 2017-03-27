@@ -18,7 +18,7 @@ modules = {
 
     // Bootstrap 4.
     bootstrap {
-        dependsOn 'tether'
+        dependsOn 'tether, jquery'
         resource id: 'bootstrap-script', url: [dir: 'js', file: 'bootstrap.min.js'], disposition: 'head'
         resource id: 'bootstrap-style', url: [dir: 'css', file: 'bootstrap.min.css', attrs: [media: 'screen, projection, print']]
         resource id: 'bootstrap-grid', url: [dir: 'css', file: 'bootstrap-grid.min.css', attrs: [media: 'screen, projection, print']]
