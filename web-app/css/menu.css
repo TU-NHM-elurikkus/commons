@@ -1,3 +1,7 @@
 .elurikkus-menu__brand > img {
     height: 3em;
 }
+
+.header {
+    margin-bottom: 16px;
+}

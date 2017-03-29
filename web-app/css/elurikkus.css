@@ -10,3 +10,29 @@
 .hidden-node {
     display: none !important;
 }
+
+.ordered-list {
+    list-style-position: inside;
+    padding-left: 1em;
+    text-indent: -1em;
+    line-height: 1.3
+}
+
+.ordered-list li {
+    padding: 3px 0
+}
+
+/* WIP */
+.input-wrapper {
+    display: flex;
+}
+
+/* WIP */
+.input-wrapper__input {
+    width: 100%;
+}
+
+/* WIP */
+.input-wrapper__addon {
+    border-radius: 0 7px 7px 0
+}
