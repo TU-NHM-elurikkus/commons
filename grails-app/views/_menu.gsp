@@ -149,122 +149,124 @@
         <span id="burger-open" class="burger__open-button">≡</span>
 
         <div id="burger-popup" class="burger__popup">
-            <div class="burger__submenu">
-                <h2 class="burger__submenu-title">
-                    Checklists
-                </h2>
+            <div class="burger__popup-content">
+                <div class="burger__submenu">
+                    <h2 class="burger__submenu-title">
+                        Checklists
+                    </h2>
 
-                <div class="burger__submenu-contents">
-                    <div class="burger_submenu-entry">
-                        <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488808569004">
-                            Invasive Species
-                        </a>
-                    </div>
+                    <div class="burger__submenu-contents">
+                        <div class="burger_submenu-entry">
+                            <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488808569004">
+                                Invasive Species
+                            </a>
+                        </div>
 
-                    <div class="burger_submenu-entry">
-                        <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488807485601">
-                            Estonian Red List of Threatened Species
-                        </a>
-                    </div>
+                        <div class="burger_submenu-entry">
+                            <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488807485601">
+                                Estonian Red List of Threatened Species
+                            </a>
+                        </div>
 
-                    <div class="burger_submenu-entry">
-                        <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488808243964">
-                            Protected Species
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="burger__submenu">
-                <h2 class="burger__submenu-title">
-                    Observations
-                </h2>
-
-                <div class="burger__submenu-contents">
-                    <div class="burger_submenu-entry">
-                        <a href="http://ala-test.ut.ee/generic-hub/occurrences/search?q=basis_of_record:HumanObservation&fq=&pageSize=100">
-                            Recent Observations
-                        </a>
-                    </div>
-
-                    <div class="burger_submenu-entry">
-                        <a href="https://plutof.ut.ee/#/observation/add">
-                            Add Observation
-                        </a>
-                    </div>
-
-                    <div class="burger_submenu-entry">
-                        <a href="http://ala-test.ut.ee/generic-hub">
-                            Search
-                        </a>
+                        <div class="burger_submenu-entry">
+                            <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488808243964">
+                                Protected Species
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="burger__submenu">
-                <h2 class="burger__submenu-title">
-                    <a href="http://ala-test.ut.ee/collectory/">
-                        Collections
-                    </a>
-                </h2>
-            </div>
+                <div class="burger__submenu">
+                    <h2 class="burger__submenu-title">
+                        Observations
+                    </h2>
 
-            <div class="burger__submenu">
-                <h2 class="burger__submenu-title">
-                    <a href="http://ala-test.ut.ee/collectory/datasets">
-                        Datasets
-                    </a>
-                </h2>
-            </div>
+                    <div class="burger__submenu-contents">
+                        <div class="burger_submenu-entry">
+                            <a href="http://ala-test.ut.ee/generic-hub/occurrences/search?q=basis_of_record:HumanObservation&fq=&pageSize=100">
+                                Recent Observations
+                            </a>
+                        </div>
 
-            <div class="burger__submenu">
-                <h2 class="burger__submenu-title">
-                    Atlases
-                </h2>
+                        <div class="burger_submenu-entry">
+                            <a href="https://plutof.ut.ee/#/observation/add">
+                                Add Observation
+                            </a>
+                        </div>
 
-                <div class="burger__submenu-contents">
-                    <div class="burger_submenu-entry">
-                        <a href="">
-                            Taimeatlas
-                        </a>
-                    </div>
-
-                    <div class="burger_submenu-entry">
-                        <a href="">
-                            Taimeatlas Squares
-                        </a>
-                    </div>
-
-                    <div class="burger_submenu-entry">
-                        <a href="">
-                            Taxon Distribution Map
-                        </a>
-                    </div>
-
-                    <div class="burger_submenu-entry">
-                        <a href="">
-                            Bird Nesting Atlas
-                        </a>
+                        <div class="burger_submenu-entry">
+                            <a href="http://ala-test.ut.ee/generic-hub">
+                                Search
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="burger__submenu">
-                <h2 class="burger__submenu-title">
-                    Analyse
-                </h2>
-            </div>
+                <div class="burger__submenu">
+                    <h2 class="burger__submenu-title">
+                        <a href="http://ala-test.ut.ee/collectory/">
+                            Collections
+                        </a>
+                    </h2>
+                </div>
 
-            <div class="burger__submenu">
-                <h2 class="burger__submenu-title">
-                    Gallery
-                </h2>
-            </div>
+                <div class="burger__submenu">
+                    <h2 class="burger__submenu-title">
+                        <a href="http://ala-test.ut.ee/collectory/datasets">
+                            Datasets
+                        </a>
+                    </h2>
+                </div>
 
-            <div class="burger__submenu">
-                <h2 class="burger__submenu-title">
-                    Contact
-                </h2>
+                <div class="burger__submenu">
+                    <h2 class="burger__submenu-title">
+                        Atlases
+                    </h2>
+
+                    <div class="burger__submenu-contents">
+                        <div class="burger_submenu-entry">
+                            <a href="">
+                                Taimeatlas
+                            </a>
+                        </div>
+
+                        <div class="burger_submenu-entry">
+                            <a href="">
+                                Taimeatlas Squares
+                            </a>
+                        </div>
+
+                        <div class="burger_submenu-entry">
+                            <a href="">
+                                Taxon Distribution Map
+                            </a>
+                        </div>
+
+                        <div class="burger_submenu-entry">
+                            <a href="">
+                                Bird Nesting Atlas
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="burger__submenu">
+                    <h2 class="burger__submenu-title">
+                        Analyse
+                    </h2>
+                </div>
+
+                <div class="burger__submenu">
+                    <h2 class="burger__submenu-title">
+                        Gallery
+                    </h2>
+                </div>
+
+                <div class="burger__submenu">
+                    <h2 class="burger__submenu-title">
+                        Contact
+                    </h2>
+                </div>
             </div>
 
             <button id="burger-close" class="burger__close-button">

@@ -563,7 +563,6 @@ body {
 }
 
 .logo {
-    flex: 0 0;
     width: 140px;
 }
 
@@ -636,9 +635,12 @@ body {
     top: 0;
     right: 0;
     height: 100%;
+    overflow-y: auto;
     z-index: 1;
     background-color: white;
     border: 1px solid #06a6d2;
+}
+.burger__popup-content {
     padding: 2em;
 }
 .burger__popup--open {
@@ -660,6 +662,8 @@ body {
     top: 1rem;
     right: 1rem;
     font-size: 2em;
+    background: none;
+    border: none;
 }
 .burger__open-button {
     font-size: 4rem;
