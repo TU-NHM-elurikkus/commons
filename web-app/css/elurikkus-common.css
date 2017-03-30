@@ -119,7 +119,7 @@ ul li {
 ol {
     list-style-position: inside;
     padding-left: 1em;
-    text-indent: -1em;
+    /* text-indent: -1em; */
     line-height: 1.3;
 }
 ol li {
@@ -199,8 +199,6 @@ input[type="radio"]:checked + label span {
 }
 
 select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
     color: #3a3e42;
 }
 
