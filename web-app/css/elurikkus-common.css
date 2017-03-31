@@ -222,7 +222,6 @@ input:focus, textarea:focus, select:focus {
 .erk-button {
     color: #3dc8d3;
     border: #3dc8d3 1px solid;
-    border-radius: 7px;
     background-color: transparent;
     font-size: 12px;
     font-weight: 700;
