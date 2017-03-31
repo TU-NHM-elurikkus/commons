@@ -93,20 +93,19 @@ em, i {
 }
 
 /*----- LIST STYLES -----*/
-ul {
+.erk-ulist {
     list-style: none;
     line-height: 1.3;
     padding: 0;
 }
-ul li {
+.erk-ulist__item {
     padding: 3px 0;
 }
-
-.bulleted-list {
+.erk-ulist--bulleted {
     padding-left: 1em;
     text-indent: -1em;
 }
-.bulleted-list li:before {
+.erk-ulist--bulleted .erk-ulist__item:before {
     content: '';
     display: inline-block;
     height: 7px;
@@ -116,30 +115,30 @@ ul li {
     margin-right: 0.7em;
 }
 
-ol {
+.erk-olist {
     list-style-position: inside;
     padding-left: 1em;
-    /* text-indent: -1em; */
+    text-indent: -1em;
     line-height: 1.3;
 }
-ol li {
+.erk-olist__item {
     padding: 3px 0;
 }
 
 /*----- FORMS -----*/
-form fieldset {
+.erk-form__fieldset {
     border: 0;
     padding-left: 0;
     font-size: 12px;
 }
-form label {
+.erk-form__label {
     display: block;
     font-size: 12px;
     font-weight: 700;
     padding: 1px 0;
 }
 
-input, select, .btn {
+input, select, .button {
     height: 30px;
 }
 
@@ -161,15 +160,13 @@ input:focus, textarea:focus, select:focus {
     outline: none;
 }
 
-input[type="checkbox"], input[type="radio"] {
-    /* display: none; */
+.erk-checkboxes input[type="checkbox"], .erk-checkboxes input[type="radio"] {
+    display: none;
 }
-
-input[type="checkbox"] + label, input[type="radio"] + label {
+.erk-checkboxes input[type="checkbox"] + label, .erk-checkboxes input[type="radio"] + label {
     cursor: pointer;
 }
-
-input[type="checkbox"] + label span, input[type="radio"] + label span {
+.erk-checkboxes input[type="checkbox"] + label span, .erk-checkboxes input[type="radio"] + label span {
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -179,8 +176,7 @@ input[type="checkbox"] + label span, input[type="radio"] + label span {
     border-radius: 1px;
     background-color: white;
 }
-
-input[type="checkbox"]:checked + label span:before {
+.erk-checkboxes input[type="checkbox"]:checked + label span:before {
     content: "\f00c";
     font-family: FontAwesome;
     position: relative;
@@ -189,28 +185,26 @@ input[type="checkbox"]:checked + label span:before {
     color: #3dc8d3;
 }
 
-input[type="radio"] + label span {
+.erk-radio input[type="radio"] + label span {
     border-radius: 50%;
 }
-
-input[type="radio"]:checked + label span {
+.erk-radio input[type="radio"]:checked + label span {
     box-shadow: inset 0px 0px 0px 3px white;
     background-color: #3dc8d3;
 }
 
-select {
+.erk-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
     color: #3a3e42;
 }
-
-select[multiple] {
-    height: 80px;
-}
-
-.select-wrap {
+.erk-select__wrap {
     position: relative;
 }
-
-.select:before {
+.erk-select--multiple {
+    height: 80px;
+}
+.erk-select:before {
     content: '\f078';
     font-family: FontAwesome;
     color: #8b8d8e;
@@ -225,9 +219,9 @@ select[multiple] {
 }
 
 /*----- Buttons -----*/
-.btn {
+.erk-button {
     color: #3dc8d3;
-    border: #3dc8d3 2px solid;
+    border: #3dc8d3 1px solid;
     border-radius: 7px;
     background-color: transparent;
     font-size: 12px;
@@ -236,81 +230,78 @@ select[multiple] {
     cursor: pointer;
     transition: all .1s ease;
 }
-.btn:hover, .btn:active, .btn:focus {
+.erk-button:hover, .erk-button:active, .erk-button:focus {
     border-color: #5ed1db;
     background-color: #5ed1db;
     color: white;
 }
-.btn:active, .btn:focus {
+.erk-button:active, .erk-button:focus {
     border-color: #2dbac5;
     outline: none;
 }
-
-.btn-light {
+.erk-button--light {
     color: #3a3e42;
     border: #cacbcc 1px solid;
     font-weight: 400;
 }
-.btn-light:hover, .btn-light:active, .btn-light:focus {
+.erk-button--light:hover, .erk-button--light:active, .erk-button--light:focus {
     color: #3a3e42;
     border-color: #8b8d8e;
     background-color: transparent;
 }
-.btn-light:active, .btn-light:focus {
+.erk-button--light:active, .erk-button--light:focus {
     border-color: #3a3e42;
 }
-
-.btn-dark {
+.erk-button--dark {
     color: white;
     background-color: #3dc8d3;
     font-weight: 700;
 }
-.btn-dark:hover {
+.erk-button--dark:hover {
     color: white;
     background-color: #5ed1db;
 }
-.btn-dark:active, .btn-dark:focus {
+.erk-button--dark:active, .erk-button--dark:focus {
     color: white;
 }
 
-.btn-group > * {
+.erk-btn-group > * {
     border-radius: 0;
     float: left;
 }
-.btn-group > *:first-of-type {
+.erk-btn-group > *:first-of-type {
     border-radius: 7px 0 0 7px;
     border-right-width: 0;
 }
-.btn-group > *:last-of-type {
+.erk-btn-group > *:last-of-type {
     border-radius: 0 7px 7px 0;
     border-left-width: 0;
 }
 
-.input-btn > * {
+.erk-input-btn > * {
     float: left;
 }
-.input-btn > *:first-child {
+.erk-input-btn > *:first-child {
     border-radius: 1px 0 0 1px;
     border-right-width: 0;
 }
-.input-btn > *:last-child {
+.erk-input-btn > *:last-child {
     border-radius: 0 7px 7px 0;
 }
 
 /*----- Icons -----*/
-.icon-btn {
+.erk-icon-button {
     height: 30px;
     width: 30px;
     padding: 0;
 }
-.icon-btn .fa {
+.erk-icon-button .fa {
     padding: 0;
 }
-
-.input-btn.icon {
+.erk-icon-button__icon {
     position: relative;
 }
-.input-btn.icon .fa {
+.erk-icon-button__icon .fa {
     position: absolute;
     top: 0;
     left: 0;
@@ -318,15 +309,13 @@ select[multiple] {
     color: #8b8d8e;
     font-size: 12px;
 }
-.input-btn.icon input[type="text"] {
+.erk-icon-button__icon input[type="text"] {
     padding-left: 28px;
 }
-
-.icon-after {
+.erk-icon-button__icon--after {
     margin-left: .4em;
 }
-
-.icon-before {
+.erk-icon-button__icon--before {
     margin-right: .6em;
 }
 
@@ -571,7 +560,7 @@ body {
     text-align: right;
     display: none;
 }
-@media (min-width: 1000px) {
+@media (min-width: 1080px) {
     .menu {
         display: block;
     }
@@ -582,14 +571,24 @@ body {
     padding: 0 1rem 0 1rem;
     text-align: left;
     cursor: pointer;
+    position: relative;
 }
 .submenu__dropdown {
-    display: none;
     position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
     white-space: nowrap;
     border: 1px solid #3dc8d3;
-    z-index: 1;
-    /* TODO */
+    display: none;
+}
+.submenu__dropdown:after {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    bottom: 100%;
 }
 .submenu__title {
     padding: 0;
@@ -603,9 +602,31 @@ body {
 .submenu__title-link--disabled:hover {
     color: #cacbcc !important;
 }
+.submenu__dropdown-pointer {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #3dc8d3;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -10px;
+}
+.submenu__dropdown-pointer-fill {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid white;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -9px;
+}
 
 /* WEIRD */
-.submenu:hover > .submenu__dropdown {
+.submenu:hover .submenu__dropdown {
     display: inline-block;
 }
 
@@ -616,12 +637,12 @@ body {
 }
 
 .burger {
-    padding-right: 2em;
-    align-self: center;
-    flex: 1;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
     text-align: right;
 }
-@media (min-width: 1000px) {
+@media (min-width: 1080px) {
     .burger {
         display: none;
     }
@@ -635,11 +656,8 @@ body {
     height: 100%;
     overflow-y: auto;
     z-index: 1;
-    background-color: white;
     border: 1px solid #06a6d2;
-}
-.burger__popup-content {
-    padding: 2em;
+    background-color: white;
 }
 .burger__popup--open {
     display: inherit;
@@ -648,6 +666,9 @@ body {
     .burger__popup {
         width: 100%;
     }
+}
+.burger__popup-content {
+    padding: 2em;
 }
 .burger__submenu {
     padding-bottom: 1em;
@@ -659,7 +680,7 @@ body {
     position: absolute;
     top: 1rem;
     right: 1rem;
-    font-size: 2em;
+    font-size: 2rem;
     background: none;
     border: none;
 }
@@ -678,7 +699,7 @@ body {
 .language .active {
     text-decoration: underline;
 }
-@media (min-width: 1250px) {
+@media (min-width: 1080px) {
     .language {
         display: inherit;
     }
@@ -692,52 +713,6 @@ body {
     display: inline-block;
 }
 
-.language-collapsed {
-    align-self: center;
-    flex: 0 0;
-    cursor: pointer;
-}
-@media (min-width: 1250px) {
-    .language-collapsed {
-        display: none;
-    }
-}
-
-/* eElurikkus styles */
-section {
-    /** Section's horizontal margin causes issues becaue its innards try to
-     * fill 100% of the horizontal space available.
-     * Could use a container class to avoid this.
-     */
-/* margin: 1rem; */
-margin-bottom: 3rem;
-}
-
-/* Search */
-/* NOTE: Not used at the moment. */
-.searches {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-ol.search__predefined-searches {
-    margin: 0;
-    margin-bottom: 0.5rem;
-    text-indent: initial;
-    padding: 0;
-}
-
-ol.search__predefined-searches > li {
-    display: inline-block;
-    margin: 0;
-}
-
-ol.search__predefined-searches > li > a {
-    border-bottom: 1px solid;
-    padding-bottom: 2px;
-}
-
 .input-plus {
     display: flex;
     max-width: 22rem;
@@ -748,32 +723,5 @@ ol.search__predefined-searches > li > a {
 }
 .input-plus__addon {
     border-radius: 0 7px 7px 0;
-}
-
-.card {
-    padding: 10px;
-    transition: width 333ms ease;
-}
-.card__content {
-    height: 100%;
-    padding: 10px;
-    background-color: whitesmoke;
-    box-shadow: 0px 4px 16px 1px rgba(0, 0, 0, 0.2);
-}
-.card__content__title {
-    margin: -10px;
-}
-.card__content__title:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-}
-.card__content__title__link {
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-}
-.card__content__entry__link {
-    font-size: 16px;
-    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
 }
 
