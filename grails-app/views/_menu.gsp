@@ -3,6 +3,8 @@
 <header class="header" role="banner">
     <a class="elurikkus-menu__brand" href="http://ala-test.ut.ee/">
         <img src="http://ala-test.ut.ee/assets/images/logo.svg" class="logo" />
+        %{-- XXX: Not the best place for this, but unless we make a layout to use for each module, there is no other --}%
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </a>
 
     <nav class="menu" role="navigation">
@@ -13,6 +15,9 @@
             </div>
 
             <div class="submenu__dropdown">
+                <div class="submenu__dropdown-pointer"></div>
+                <div class="submenu__dropdown-pointer-fill"></div>
+
                 <div class="submenu__dropdown__content">
                     <div class="submenu__item">
                         <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488808569004">
@@ -44,6 +49,9 @@
             </div>
 
             <div class="submenu__dropdown">
+                <div class="submenu__dropdown-pointer"></div>
+                <div class="submenu__dropdown-pointer-fill"></div>
+
                 <div class="submenu__dropdown__content">
                     <div class="submenu__item">
                         <a href="http://ala-test.ut.ee/generic-hub/occurrences/search?q=basis_of_record:HumanObservation&fq=&pageSize=100">
@@ -92,6 +100,9 @@
             </div>
 
             <div class="submenu__dropdown">
+                <div class="submenu__dropdown-pointer"></div>
+                <div class="submenu__dropdown-pointer-fill"></div>
+
                 <div class="submenu__dropdown__content">
                     <div class="submenu__item">
                         <a href="">
