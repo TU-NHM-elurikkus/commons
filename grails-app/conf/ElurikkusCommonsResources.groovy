@@ -23,4 +23,8 @@ modules = {
         resource id: 'bootstrap-style', url: [dir: 'css', file: 'bootstrap.min.css', plugin: 'elurikkus-commons', attrs: [media: 'screen, projection, print']]
         resource id: 'bootstrap-grid', url: [dir: 'css', file: 'bootstrap-grid.min.css', plugin: 'elurikkus-commons', attrs: [media: 'screen, projection, print']]
     }
+
+    fontawesome {
+        resource id: 'fontawesome-style', url: [dir: 'css', file: 'font-awesome.min.css', plugin: 'elurikkus-commons'], disposition: 'head'
+    }
 }
