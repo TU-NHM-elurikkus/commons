@@ -9,7 +9,7 @@
 }
 
 body {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
     font-family: 'Open Sans', 'sans-serif';
     font-weight: 400;
@@ -28,7 +28,6 @@ hr {
 /*----- TYPOGRAPHY -----*/
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
-    color: #0587aa;
     margin: 0;
 }
 
@@ -43,16 +42,8 @@ h2 {
     /* XXX */
 }
 
-h3 {
+h3, h4, h5, h5 {
     font-size: 16px;
-}
-
-h4, h5, h6 {
-    font-size: 14px;
-}
-
-h5, h6 {
-    color: #8b8d8e;
 }
 
 p {
@@ -129,11 +120,11 @@ em, i {
 .erk-form__fieldset {
     border: 0;
     padding-left: 0;
-    font-size: 12px;
+    font-size: 14px;
 }
 .erk-form__label {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     padding: 1px 0;
 }
@@ -147,7 +138,7 @@ input, textarea, select {
     background-color: white;
     border: #cacbcc 1px solid;
     border-radius: 1px;
-    font-size: 12px;
+    font-size: 14px;
     padding: 5px;
     transition: all .1s ease;
 }
@@ -210,7 +201,7 @@ input:focus, textarea:focus, select:focus {
     color: #8b8d8e;
     position: absolute;
     pointer-events: none;
-    font-size: 12px;
+    font-size: 14px;
     top: 6px;
     right: 0;
     width: 32px;
@@ -223,7 +214,7 @@ input:focus, textarea:focus, select:focus {
     color: #3dc8d3;
     border: #3dc8d3 1px solid;
     background-color: transparent;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     padding: 0 15px;
     height: 30px;
@@ -307,7 +298,7 @@ input:focus, textarea:focus, select:focus {
     left: 0;
     padding: 9px;
     color: #8b8d8e;
-    font-size: 12px;
+    font-size: 14px;
 }
 .erk-icon-button__icon input[type="text"] {
     padding-left: 28px;
@@ -324,7 +315,7 @@ input:focus, textarea:focus, select:focus {
 /* 1920px / 2 - vertical UI space. */
 /* 2560px / 2 - vertical UI space. */
 body {
-    margin: 12px;
+    margin: 30px;
 }
 
 .page-content-wrapper {
