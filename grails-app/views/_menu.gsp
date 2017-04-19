@@ -2,7 +2,7 @@
 
 <header class="header" role="banner">
     <a class="elurikkus-menu__brand" href="http://ala-test.ut.ee/">
-        <img src="${resource(dir: 'images', file: 'elurikkus_logo.svg')}" class="logo" />
+        <img src="http://ala-test.ut.ee/assets/images/elurikkus_logo.svg" class="logo" />
         %{-- XXX: Not the best place for this, but unless we make a layout to use for each module, there is no other --}%
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </a>
