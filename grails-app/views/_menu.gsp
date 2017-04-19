@@ -2,7 +2,7 @@
 
 <header class="header" role="banner">
     <a class="elurikkus-menu__brand" href="http://ala-test.ut.ee/">
-        <img src="http://ala-test.ut.ee/assets/images/logo.svg" class="logo" />
+        <img src="${resource(dir: 'images', file: 'elurikkus_logo.svg')}" class="logo" />
         %{-- XXX: Not the best place for this, but unless we make a layout to use for each module, there is no other --}%
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </a>
@@ -10,8 +10,13 @@
     <nav class="menu" role="navigation">
         <span class="submenu">
             <div class="submenu__title">
-                <a class="submenu__title-link ">Checklists</a>
-                ⌄
+                <a class="submenu__title-link ">
+                    Checklists
+                </a>
+
+                <span class="submenu__title-addon">
+                    &#9660;
+                </span>
             </div>
 
             <div class="submenu__dropdown">
@@ -45,7 +50,10 @@
                 <a class="submenu__title-link ">
                     Observations
                 </a>
-                ⌄
+
+                <span class="submenu__title-addon">
+                    &#9660;
+                </span>
             </div>
 
             <div class="submenu__dropdown">
@@ -96,7 +104,9 @@
                     Atlases
                 </a>
 
-                ⌄
+                <span class="submenu__title-addon">
+                    &#9660;
+                </span>
             </div>
 
             <div class="submenu__dropdown">
@@ -157,7 +167,11 @@
     </nav>
 
     <nav class="burger">
-        <span id="burger-open" class="burger__open-button">≡</span>
+        <button type="button" id="burger-open" class="burger__open-button">
+            <span class="burger__open-button-icon">
+                ≡
+            </span>
+        </button>
 
         <div id="burger-popup" class="burger__popup">
             <div class="burger__popup-content">

@@ -22,17 +22,17 @@
     padding: 3px 0
 }
 
-/* WIP */
+/* WIP XXX TODO: Remove when not in use any more. */
 .input-wrapper {
     display: flex;
 }
 
-/* WIP */
+/* WIP XXX TODO: Remove when not in use any more. */
 .input-wrapper__input {
     width: 100%;
 }
 
-/* WIP */
+/* WIP XXX TODO: Remove when not in use any more. */
 .input-wrapper__addon {
     border-radius: 0 7px 7px 0
 }
