@@ -23,24 +23,18 @@
                 <div class="submenu__dropdown-pointer"></div>
                 <div class="submenu__dropdown-pointer-fill"></div>
 
-                <div class="submenu__dropdown__content">
-                    <div class="submenu__item">
-                        <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488808569004">
-                            Invasive Species
-                        </a>
-                    </div>
+                <div class="submenu__dropdown-content">
+                    <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488808569004" class="submenu__dropdown-link">
+                        Invasive Species
+                    </a>
 
-                    <div class="submenu__item">
-                        <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488807485601">
-                            Estonian Red List of Threatened Species
-                        </a>
-                    </div>
+                    <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488807485601" class="submenu__dropdown-link">
+                        Estonian Red List of Threatened Species
+                    </a>
 
-                    <div class="submenu__item">
-                        <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488808243964">
-                            Protected Species
-                        </a>
-                    </div>
+                    <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488808243964" class="submenu__dropdown-link">
+                        Protected Species
+                    </a>
                 </div>
             </div>
         </span>
@@ -60,31 +54,25 @@
                 <div class="submenu__dropdown-pointer"></div>
                 <div class="submenu__dropdown-pointer-fill"></div>
 
-                <div class="submenu__dropdown__content">
-                    <div class="submenu__item">
-                        <a href="http://ala-test.ut.ee/generic-hub/occurrences/search?q=basis_of_record:HumanObservation&fq=&pageSize=100">
-                            Recent Observations
-                        </a>
-                    </div>
+                <div class="submenu__dropdown-content">
+                    <a href="http://ala-test.ut.ee/generic-hub/occurrences/search?q=basis_of_record:HumanObservation&fq=&pageSize=100" class="submenu__dropdown-link">
+                        Recent Observations
+                    </a>
 
-                    <div class="submenu__item">
-                        <a href="https://plutof.ut.ee/#/observation/add">
-                            Add Observation
-                        </a>
-                    </div>
+                    <a href="https://plutof.ut.ee/#/observation/add" class="submenu__dropdown-link">
+                        Add Observation
+                    </a>
 
-                    <div class="submenu__item">
-                        <a href="http://ala-test.ut.ee/generic-hub">
-                            Search
-                        </a>
-                    </div>
+                    <a href="http://ala-test.ut.ee/generic-hub" class="submenu__dropdown-link">
+                        Search
+                    </a>
                 </div>
             </div>
         </span>
 
         <span class="submenu">
             <div class="submenu__title">
-                <a href="http://ala-test.ut.ee/collectory/" class="submenu__title-link">
+                <a href="http://ala-test.ut.ee/collectory/" class="submenu__title-link" class="submenu__dropdown-link">
                     Collections
                 </a>
             </div>
@@ -92,7 +80,7 @@
 
         <span class="submenu">
             <div class="submenu__title">
-                <a href=http://ala-test.ut.ee/collectory/datasets class="submenu__title-link">
+                <a href="http://ala-test.ut.ee/collectory/datasets" class="submenu__title-link">
                     Datasets
                 </a>
             </div>
@@ -113,30 +101,22 @@
                 <div class="submenu__dropdown-pointer"></div>
                 <div class="submenu__dropdown-pointer-fill"></div>
 
-                <div class="submenu__dropdown__content">
-                    <div class="submenu__item">
-                        <a href="">
-                            Taimeatlas
-                        </a>
-                    </div>
+                <div class="submenu__dropdown-content">
+                    <a href="" class="submenu__dropdown-link">
+                        Taimeatlas
+                    </a>
 
-                    <div class="submenu__item">
-                        <a href="">
-                            Taimeatlas Squares
-                        </a>
-                    </div>
+                    <a href="" class="submenu__dropdown-link">
+                        Taimeatlas Squares
+                    </a>
 
-                    <div class="submenu__item">
-                        <a href="">
-                            Taxon Distribution Map
-                        </a>
-                    </div>
+                    <a href="" class="submenu__dropdown-link">
+                        Taxon Distribution Map
+                    </a>
 
-                    <div class="submenu__item">
-                        <a href="">
-                            Bird Nesting Atlas
-                        </a>
-                    </div>
+                    <a href="" class="submenu__dropdown-link">
+                        Bird Nesting Atlas
+                    </a>
                 </div>
             </div>
         </span>
