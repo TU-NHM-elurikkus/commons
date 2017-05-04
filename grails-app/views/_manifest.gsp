@@ -7,5 +7,5 @@
 <link rel="mask-icon" href="http://ala-test.ut.ee/assets/favicons/safari-pinned-tab.svg?v=eEa25WbRd8" color="#009FC8">
 <link rel="shortcut icon" href="http://ala-test.ut.ee/assets/favicons/favicon.ico?v=eEa25WbRd8">
 <meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/mstile-144x144.png?v=eEa25WbRd8">
+<meta name="msapplication-TileImage" content="http://ala-test.ut.ee/assets/favicons/mstile-144x144.png?v=eEa25WbRd8">
 <meta name="theme-color" content="#ffffff">
