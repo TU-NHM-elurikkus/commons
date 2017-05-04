@@ -350,9 +350,12 @@ body {
 }
 
 .header {
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     clear: both;
 }
@@ -368,7 +371,10 @@ body {
 
 .menu {
     padding-right: 20px;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
     align-self: center;
+    -ms-flex: 1;
     flex: 1;
     text-align: right;
     display: none;
@@ -430,6 +436,7 @@ body {
     position: absolute;
     z-index: 1;
     left: 50%;
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     margin-top: 10px;
     white-space: nowrap;
@@ -453,6 +460,7 @@ body {
     border-right: 10px solid transparent;
     border-bottom: 10px solid #8d8d8d;
     left: 50%;
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     top: -10px;
 }
@@ -465,6 +473,7 @@ body {
     border-right: 9px solid transparent;
     border-bottom: 9px solid #fff;
     left: 50%;
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     top: -9px;
 }
@@ -569,7 +578,10 @@ body {
 }
 
 .language {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
     align-self: center;
+    -ms-flex: 0 0;
     flex: 0 0;
     white-space: nowrap;
     display: none;
@@ -598,10 +610,59 @@ section {
 }
 
 .input-plus {
+    display: -ms-flexbox;
     display: flex;
     max-width: 22rem;
 }
 
 .input-plus__field {
+    -ms-flex: 1;
     flex: 1;
+}
+
+.footer {
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 1rem;
+}
+
+.footer-licence {
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.footer-licence__logo {
+    margin: .25rem .25rem 0 0;
+    float: left;
+    height: 2rem;
+}
+
+.footer-licence__text {
+    font-size: 13px;
+    color: #3a3e42;
+}
+
+.footer-logos {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -.5rem;
+}
+
+@media(max-width: 598.5px) {
+    .footer-logos {
+        -ms-flex: 0;
+        flex: 0;
+    }
+}
+
+.footer-logos__logo {
+    display: inline-block;
+    margin: .25rem .5rem .5rem .5rem;
+    height: 2rem;
+}
+
+.footer-logos__logo img {
+    height: 100%;
 }
