@@ -1,10 +1,11 @@
 <r:require modules="menu" />
 
 <header class="header" role="banner">
+    %{-- XXX: Not the best place for this, but unless we make a layout to use for each module, there is no other --}%
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
     <a class="elurikkus-menu__brand" href="http://ala-test.ut.ee/">
         <img src="http://ala-test.ut.ee/assets/images/elurikkus_logo.svg" class="logo" />
-        %{-- XXX: Not the best place for this, but unless we make a layout to use for each module, there is no other --}%
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </a>
 
     <nav class="menu" role="navigation">
@@ -148,9 +149,10 @@
 
     <nav class="burger">
         <button type="button" id="burger-open" class="burger__open-button">
-            <span class="burger__open-button-icon">
-                ≡
-            </span>
+            <div class="burger__open-button-icon">
+                <span class="fa fa-bars">
+                </span>
+            </div>
         </button>
 
         <div id="burger-popup" class="burger__popup">
