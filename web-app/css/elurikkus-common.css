@@ -691,38 +691,26 @@ section {
     height: 100%;
 }
 
-.page-header-title {
-    padding-top: 2rem;
-    margin-bottom: 1rem;
+.page-header {
+    padding: 3.5rem 0;
 }
 
-.page-header-title__title {
+.page-header__title {
     color: #3a3e42;
-    line-height: 1.5;
+    line-height: 1;
+    margin-bottom: 2rem;
 }
 
-.page-header-title__subtitle {
+.page-header__subtitle {
     color: #3a3e42;
     font-size: 16px;
 }
 
 .page-header-links {
-    margin: 0 -.25rem 1.5rem -.25rem;
+    margin: 0 -.25rem 0 -.25rem;
 }
 
 .page-header-links__link {
     display: inline-block;
     margin: 0 .25rem;
-}
-
-.page-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 720px;
-    width: 100%;
-    z-index: -1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
