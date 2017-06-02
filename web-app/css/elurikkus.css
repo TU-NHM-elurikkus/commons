@@ -36,3 +36,9 @@
 .input-wrapper__addon {
     border-radius: 0 7px 7px 0
 }
+
+.action-button-block {
+    display: inline-block;
+    float: right;
+    margin: 0 .25rem;
+}
