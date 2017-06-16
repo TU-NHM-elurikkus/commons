@@ -56,6 +56,17 @@ a:hover {
     color: #06a6d2;
 }
 
+.erk-link {
+    color: #0587aa;
+    text-decoration: none;
+    transition: color .1s ease;
+    cursor: pointer;
+}
+
+.erk-link:hover {
+    color: #06a6d2;
+}
+
 strong, b {
     font-weight: 700;
 }
@@ -230,6 +241,12 @@ input:active, textarea:active, select:active {
     padding: 0 15px;
     cursor: pointer;
     transition: all .1s ease;
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none;
 }
 
 .erk-button:hover, .erk-button: active, .erk-button:active {
@@ -272,6 +289,11 @@ input:active, textarea:active, select:active {
 
 .erk-button--dark: active, .erk-button--dark:active {
     color: #fff;
+}
+
+.erk-button--inline {
+    display: inline;
+    height: initial;
 }
 
 .erk-btn-group > * {
