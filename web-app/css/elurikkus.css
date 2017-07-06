@@ -49,3 +49,25 @@
     border-right: 1px solid #ddd;
     padding: 1.25rem;
 }
+
+.search-section {
+    /* Matching the card padding of Bootstrap 4. */
+    margin-bottom: 1.25rem;
+}
+
+.search-controls {
+    margin-bottom: 1rem;
+}
+
+.search-controls label {
+    margin-right: .5rem;
+}
+
+.search-controls .form-group {
+    margin-left: 1rem;
+}
+
+.filters-container {
+    /* Matching the card padding of Bootstrap 4. */
+    margin-bottom: 1.25rem;
+}
