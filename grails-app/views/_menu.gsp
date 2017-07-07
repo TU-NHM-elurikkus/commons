@@ -158,9 +158,9 @@
         <div id="burger-popup" class="burger__popup">
             <div class="burger__popup-content">
                 <div class="burger__submenu">
-                    <h2 class="burger__submenu-title">
+                    <div class="burger__submenu-title">
                         Checklists
-                    </h2>
+                    </div>
 
                     <div class="burger__submenu-contents">
                         <div class="burger_submenu-entry">
@@ -184,9 +184,9 @@
                 </div>
 
                 <div class="burger__submenu">
-                    <h2 class="burger__submenu-title">
+                    <div class="burger__submenu-title">
                         Observations
-                    </h2>
+                    </div>
 
                     <div class="burger__submenu-contents">
                         <div class="burger_submenu-entry">
@@ -210,25 +210,25 @@
                 </div>
 
                 <div class="burger__submenu">
-                    <h2 class="burger__submenu-title">
+                    <div class="burger__submenu-title">
                         <a href="http://ala-test.ut.ee/collectory/">
                             Collections
                         </a>
-                    </h2>
+                    </div>
                 </div>
 
                 <div class="burger__submenu">
-                    <h2 class="burger__submenu-title">
+                    <div class="burger__submenu-title">
                         <a href="http://ala-test.ut.ee/collectory/datasets">
                             Datasets
                         </a>
-                    </h2>
+                    </div>
                 </div>
 
                 <div class="burger__submenu">
-                    <h2 class="burger__submenu-title">
+                    <div class="burger__submenu-title">
                         Atlases
-                    </h2>
+                    </div>
 
                     <div class="burger__submenu-contents">
                         <div class="burger_submenu-entry">
@@ -255,24 +255,6 @@
                             </a>
                         </div>
                     </div>
-                </div>
-
-                <div class="burger__submenu">
-                    <h2 class="burger__submenu-title">
-                        Analyse
-                    </h2>
-                </div>
-
-                <div class="burger__submenu">
-                    <h2 class="burger__submenu-title">
-                        Gallery
-                    </h2>
-                </div>
-
-                <div class="burger__submenu">
-                    <h2 class="burger__submenu-title">
-                        Contact
-                    </h2>
                 </div>
             </div>
 
