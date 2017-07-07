@@ -5,7 +5,7 @@ modules = {
     }
 
     commons {
-        dependsOn 'bootstrap';
+        dependsOn 'bootstrap, fontawesome';
         resource id: 'elurikkus-ala-style', url: [dir: 'css', file: 'elurikkus.css', plugin: 'elurikkus-commons'], disposition: 'head'
         resource id: 'elurikkus-common-style', url: [dir: 'css', file: 'elurikkus-common.css', plugin: 'elurikkus-commons'], disposition: 'head'
     }

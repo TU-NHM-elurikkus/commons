@@ -241,12 +241,12 @@ input:active, textarea:active, select:active {
     padding: 0 15px;
     cursor: pointer;
     transition: all .1s ease;
-    -webkit-touch-callout: none; /* iOS Safari */
-      -webkit-user-select: none; /* Safari */
-       -khtml-user-select: none; /* Konqueror HTML */
-         -moz-user-select: none; /* Firefox */
-          -ms-user-select: none; /* Internet Explorer/Edge */
-              user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .erk-button:hover, .erk-button: active, .erk-button:active {
@@ -464,7 +464,7 @@ body {
 
 .submenu__dropdown {
     position: absolute;
-    z-index: 1;
+    z-index: 1100;
     left: 50%;
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -554,9 +554,8 @@ body {
     position: fixed;
     top: 0;
     right: 0;
-    height: 100%;
     overflow-y: auto;
-    z-index: 1;
+    z-index: 1100;
     border: 1px solid #8d8d8d;
     background-color: #fff;
 }
@@ -567,6 +566,7 @@ body {
 
 @media(max-width: 450px) {
     .burger__popup {
+        height: 100%;
         width: 100%;
     }
 }
@@ -580,7 +580,7 @@ body {
 }
 
 .burger__submenu-title {
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 .burger__close-button {
