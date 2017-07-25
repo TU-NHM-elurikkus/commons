@@ -8,6 +8,7 @@ maven-install
 If terminal just resets after 'grails' command, add JAVA_HOME
 ```
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/"
+echo 'JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/"' >> ~/.bash_profile
 ```
 
 If necessary, install and use the grails version required by the plugin.
