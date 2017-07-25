@@ -12,6 +12,6 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Ho
 
 If necessary, install and use the grails version required by the plugin.
 ```
-sdk install grails 2.5.1
-sdk use grails 2.5.1
+sdk install grails 2.3.11
+sdk use grails 2.3.11
 ```
