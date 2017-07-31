@@ -12,7 +12,7 @@
         <span class="submenu">
             <div class="submenu__title">
                 <a class="submenu__title-link ">
-                    Checklists
+                    <g:message code="menu.lists.label" />
                 </a>
 
                 <span class="submenu__title-addon">
@@ -26,15 +26,15 @@
 
                 <div class="submenu__dropdown-content">
                     <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488808569004" class="submenu__dropdown-link">
-                        Invasive Species
+                        <g:message code="menu.lists.invasiveSpecies" />
                     </a>
 
                     <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488807485601" class="submenu__dropdown-link">
-                        Estonian Red List of Threatened Species
+                        <g:message code="menu.lists.threatenedSpecies" />
                     </a>
 
                     <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488808243964" class="submenu__dropdown-link">
-                        Protected Species
+                        <g:message code="menu.lists.protectedSpecies" />
                     </a>
                 </div>
             </div>
@@ -43,7 +43,7 @@
         <span class="submenu">
             <div class="submenu__title">
                 <a class="submenu__title-link ">
-                    Observations
+                    <g:message code="menu.observations.label" />
                 </a>
 
                 <span class="submenu__title-addon">
@@ -57,15 +57,15 @@
 
                 <div class="submenu__dropdown-content">
                     <a href="http://ala-test.ut.ee/generic-hub/occurrences/search?q=basis_of_record:HumanObservation&fq=&pageSize=100" class="submenu__dropdown-link">
-                        Recent Observations
+                        <g:message code="menu.observations.recentObservations" />
                     </a>
 
                     <a href="https://plutof.ut.ee/#/observation/add" class="submenu__dropdown-link">
-                        Add Observation
+                        <g:message code="menu.observations.addObservation" />
                     </a>
 
                     <a href="http://ala-test.ut.ee/generic-hub" class="submenu__dropdown-link">
-                        Search
+                        <g:message code="menu.observations.search" />
                     </a>
                 </div>
             </div>
@@ -74,7 +74,7 @@
         <span class="submenu">
             <div class="submenu__title">
                 <a href="http://ala-test.ut.ee/collectory/" class="submenu__title-link" class="submenu__dropdown-link">
-                    Collections
+                    <g:message code="menu.collections.label" />
                 </a>
             </div>
         </span>
@@ -82,7 +82,7 @@
         <span class="submenu">
             <div class="submenu__title">
                 <a href="http://ala-test.ut.ee/collectory/datasets" class="submenu__title-link">
-                    Datasets
+                    <g:message code="menu.datasets.label" />
                 </a>
             </div>
         </span>
@@ -90,7 +90,7 @@
         <span class="submenu">
             <div class="submenu__title">
                 <a class="submenu__title-link ">
-                    Atlases
+                    <g:message code="menu.atlases.label" />
                 </a>
 
                 <span class="submenu__title-addon">
@@ -104,19 +104,19 @@
 
                 <div class="submenu__dropdown-content">
                     <a href="" class="submenu__dropdown-link">
-                        Taimeatlas
+                        <g:message code="menu.atlases.taimeatlas" />
                     </a>
 
                     <a href="" class="submenu__dropdown-link">
-                        Taimeatlas Squares
+                        <g:message code="menu.atlases.taimeatlasSquares" />
                     </a>
 
                     <a href="" class="submenu__dropdown-link">
-                        Taxon Distribution Map
+                        <g:message code="menu.atlases.taxonDistributionMap" />
                     </a>
 
                     <a href="" class="submenu__dropdown-link">
-                        Bird Nesting Atlas
+                        <g:message code="menu.atlases.birdNestingAtlas" />
                     </a>
                 </div>
             </div>
@@ -125,7 +125,7 @@
         <span class="submenu">
             <div class="submenu__title">
                 <a title="Coming soon" class="submenu__title-link submenu__title-link--disabled">
-                    Analyse
+                    <g:message code="menu.analyse.label" />
                 </a>
             </div>
         </span>
@@ -133,7 +133,7 @@
         <span class="submenu">
             <div class="submenu__title">
                 <a title="Coming soon" class="submenu__title-link submenu__title-link--disabled">
-                    Gallery
+                    <g:message code="menu.gallery.label" />
                 </a>
             </div>
         </span>
@@ -141,13 +141,13 @@
         <span class="submenu">
             <div class="submenu__title">
                 <a title="Coming soon" class="submenu__title-link submenu__title-link--disabled">
-                    Contact
+                    <g:message code="menu.contact.label" />
                 </a>
             </div>
         </span>
     </nav>
 
-    <nav class="burger">
+    <nav class="burger" role="navigation">
         <button type="button" id="burger-open" class="burger__open-button">
             <div class="burger__open-button-icon">
                 <span class="fa fa-bars">
@@ -159,25 +159,25 @@
             <div class="burger__popup-content">
                 <div class="burger__submenu">
                     <div class="burger__submenu-title">
-                        Checklists
+                        <g:message code="menu.lists.label" />
                     </div>
 
                     <div class="burger__submenu-contents">
                         <div class="burger_submenu-entry">
                             <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488808569004">
-                                Invasive Species
+                                <g:message code="menu.lists.invasiveSpecies" />
                             </a>
                         </div>
 
                         <div class="burger_submenu-entry">
                             <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488807485601">
-                                Estonian Red List of Threatened Species
+                                <g:message code="menu.lists.threatenedSpecies" />
                             </a>
                         </div>
 
                         <div class="burger_submenu-entry">
                             <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488808243964">
-                                Protected Species
+                                <g:message code="menu.lists.protectedSpecies" />
                             </a>
                         </div>
                     </div>
@@ -185,25 +185,25 @@
 
                 <div class="burger__submenu">
                     <div class="burger__submenu-title">
-                        Observations
+                        <g:message code="menu.observations.label" />
                     </div>
 
                     <div class="burger__submenu-contents">
                         <div class="burger_submenu-entry">
                             <a href="http://ala-test.ut.ee/generic-hub/occurrences/search?q=basis_of_record:HumanObservation&fq=&pageSize=100">
-                                Recent Observations
+                                <g:message code="menu.observations.recentObservations" />
                             </a>
                         </div>
 
                         <div class="burger_submenu-entry">
                             <a href="https://plutof.ut.ee/#/observation/add">
-                                Add Observation
+                                <g:message code="menu.observations.addObservation" />
                             </a>
                         </div>
 
                         <div class="burger_submenu-entry">
                             <a href="http://ala-test.ut.ee/generic-hub">
-                                Search
+                                <g:message code="menu.observations.search" />
                             </a>
                         </div>
                     </div>
@@ -212,7 +212,7 @@
                 <div class="burger__submenu">
                     <div class="burger__submenu-title">
                         <a href="http://ala-test.ut.ee/collectory/">
-                            Collections
+                            <g:message code="menu.collections.label" />
                         </a>
                     </div>
                 </div>
@@ -220,38 +220,38 @@
                 <div class="burger__submenu">
                     <div class="burger__submenu-title">
                         <a href="http://ala-test.ut.ee/collectory/datasets">
-                            Datasets
+                            <g:message code="menu.datasets.label" />
                         </a>
                     </div>
                 </div>
 
                 <div class="burger__submenu">
                     <div class="burger__submenu-title">
-                        Atlases
+                        <g:message code="menu.atlases.label" />
                     </div>
 
                     <div class="burger__submenu-contents">
                         <div class="burger_submenu-entry">
                             <a href="">
-                                Taimeatlas
+                                <g:message code="menu.atlases.taimeatlas" />
                             </a>
                         </div>
 
                         <div class="burger_submenu-entry">
                             <a href="">
-                                Taimeatlas Squares
+                                <g:message code="menu.atlases.taimeatlasSquares" />
                             </a>
                         </div>
 
                         <div class="burger_submenu-entry">
                             <a href="">
-                                Taxon Distribution Map
+                                <g:message code="menu.atlases.taxonDistributionMap" />
                             </a>
                         </div>
 
                         <div class="burger_submenu-entry">
                             <a href="">
-                                Bird Nesting Atlas
+                                <g:message code="menu.atlases.birdNestingAtlas" />
                             </a>
                         </div>
                     </div>
