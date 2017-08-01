@@ -145,6 +145,12 @@
                 </a>
             </div>
         </span>
+
+        <span class="submenu">
+            <div class="submenu__title">
+                <localeSwitcher:localeButton uri="${request.forwardURI}" styleClass="submenu__title-link" />
+            </div>
+        </span>
     </nav>
 
     <nav class="burger" role="navigation">
@@ -254,6 +260,12 @@
                                 <g:message code="menu.atlases.birdNestingAtlas" />
                             </a>
                         </div>
+                    </div>
+                </div>
+
+                <div class="burger__submenu">
+                    <div class="burger__submenu-title">
+                        <localeSwitcher:localeButton uri="${request.forwardURI}" />
                     </div>
                 </div>
             </div>
