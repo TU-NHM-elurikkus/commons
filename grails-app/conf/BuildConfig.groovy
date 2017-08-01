@@ -44,6 +44,6 @@ grails.project.dependency.resolution = {
               ":rest-client-builder:1.0.3") {
             export = false
         }
-        runtime ":resources:1.2.8"
+        runtime ":resources:1.2.14"
     }
 }
