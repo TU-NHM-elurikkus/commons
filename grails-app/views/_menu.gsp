@@ -25,15 +25,15 @@
                 <div class="submenu__dropdown-pointer-fill"></div>
 
                 <div class="submenu__dropdown-content">
-                    <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488808569004" class="submenu__dropdown-link">
-                        <g:message code="menu.lists.invasiveSpecies" />
-                    </a>
-
                     <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488807485601" class="submenu__dropdown-link">
                         <g:message code="menu.lists.threatenedSpecies" />
                     </a>
 
-                    <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488808243964" class="submenu__dropdown-link">
+                    <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488802807768" class="submenu__dropdown-link">
+                        <g:message code="menu.lists.invasiveSpecies" />
+                    </a>
+
+                    <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1491397493412" class="submenu__dropdown-link">
                         <g:message code="menu.lists.protectedSpecies" />
                     </a>
                 </div>
@@ -164,22 +164,23 @@
 
                     <div class="burger__submenu-contents">
                         <div class="burger_submenu-entry">
-                            <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488808569004">
-                                <g:message code="menu.lists.invasiveSpecies" />
-                            </a>
-                        </div>
-
-                        <div class="burger_submenu-entry">
                             <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488807485601">
                                 <g:message code="menu.lists.threatenedSpecies" />
                             </a>
                         </div>
 
                         <div class="burger_submenu-entry">
-                            <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488808243964">
+                            <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488802807768">
+                                <g:message code="menu.lists.invasiveSpecies" />
+                            </a>
+                        </div>
+
+                        <div class="burger_submenu-entry">
+                            <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1491397493412">
                                 <g:message code="menu.lists.protectedSpecies" />
                             </a>
                         </div>
+
                     </div>
                 </div>
 
