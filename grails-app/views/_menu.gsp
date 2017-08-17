@@ -124,30 +124,6 @@
 
         <span class="submenu">
             <div class="submenu__title">
-                <a title="Coming soon" class="submenu__title-link submenu__title-link--disabled">
-                    <g:message code="menu.analyse.label" />
-                </a>
-            </div>
-        </span>
-
-        <span class="submenu">
-            <div class="submenu__title">
-                <a title="Coming soon" class="submenu__title-link submenu__title-link--disabled">
-                    <g:message code="menu.gallery.label" />
-                </a>
-            </div>
-        </span>
-
-        <span class="submenu">
-            <div class="submenu__title">
-                <a title="Coming soon" class="submenu__title-link submenu__title-link--disabled">
-                    <g:message code="menu.contact.label" />
-                </a>
-            </div>
-        </span>
-
-        <span class="submenu">
-            <div class="submenu__title">
                 <localeSwitcher:localeButton uri="${request.forwardURI}" styleClass="submenu__title-link" />
             </div>
         </span>
