@@ -1,0 +1,24 @@
+.active-filters {
+}
+
+.active-filters__filter {
+    margin-right: 0.5rem;
+}
+
+.active-filters__title {
+    font-weight: 700;
+}
+
+.active-filters__label {
+    color: #888;
+}
+
+.active-filters__close-button {
+    color: #F05850;
+    cursor: pointer;
+}
+
+.active-filters__clear-all-button {
+    cursor: pointer;
+    color: #F05850;
+}

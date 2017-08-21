@@ -27,4 +27,9 @@ modules = {
     fontawesome {
         resource id: 'fontawesome-style', url: [dir: 'css', file: 'font-awesome.min.css', plugin: 'elurikkus-commons'], disposition: 'head'
     }
+
+    filters {
+        dependsOn: 'fontawesome'
+        resource id: 'active-filters', url: [dir: 'css', file: 'filters.css', plugin: 'elurikkus-commons'], disposition: 'head'
+    }
 }
