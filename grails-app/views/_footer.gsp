@@ -1,4 +1,5 @@
-<r:require modules="menu" />
+<asset:javascript src="common.js"/>
+<asset:stylesheet src="commons.css"/>
 
     <footer role="contentinfo">
         <div class="footer">
