@@ -1,4 +1,5 @@
-<r:require modules="menu" />
+<asset:javascript src="common.js"/>
+<asset:stylesheet src="commons.css"/>
 
 <header class="header" role="banner">
     %{-- XXX: Not the best place for this, but unless we make a layout to use for each module, there is no other --}%
