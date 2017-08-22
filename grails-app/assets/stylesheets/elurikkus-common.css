@@ -5,6 +5,7 @@
 *= require font-awesome.min
 *= require menu
 *= require commons
+*= require filters
 */
 
 *, *:after, *:before {
