@@ -1,2 +1,2 @@
-//= require tether.js
-//= require bootstrap.js
+//= require tether.min
+//= require bootstrap.min
