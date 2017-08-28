@@ -593,6 +593,15 @@ body {
     font-weight: bold;
 }
 
+.burger__link {
+    color: inherit;
+}
+
+.burger__link:hover {
+    color: #3dc8d3;
+    text-decoration: none;
+}
+
 .burger__close-button {
     position: absolute;
     top: 1rem;

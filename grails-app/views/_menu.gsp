@@ -87,41 +87,6 @@
 
         <span class="submenu">
             <div class="submenu__title">
-                <a class="submenu__title-link ">
-                    <g:message code="menu.atlases.label" />
-                </a>
-
-                <span class="submenu__title-addon">
-                    &#9660;
-                </span>
-            </div>
-
-            <div class="submenu__dropdown">
-                <div class="submenu__dropdown-pointer"></div>
-                <div class="submenu__dropdown-pointer-fill"></div>
-
-                <div class="submenu__dropdown-content">
-                    <a href="" class="submenu__dropdown-link">
-                        <g:message code="menu.atlases.taimeatlas" />
-                    </a>
-
-                    <a href="" class="submenu__dropdown-link">
-                        <g:message code="menu.atlases.taimeatlasSquares" />
-                    </a>
-
-                    <a href="" class="submenu__dropdown-link">
-                        <g:message code="menu.atlases.taxonDistributionMap" />
-                    </a>
-
-                    <a href="" class="submenu__dropdown-link">
-                        <g:message code="menu.atlases.birdNestingAtlas" />
-                    </a>
-                </div>
-            </div>
-        </span>
-
-        <span class="submenu">
-            <div class="submenu__title">
                 <localeSwitcher:localeButton uri="${request.forwardURI}" styleClass="submenu__title-link" />
             </div>
         </span>
@@ -144,19 +109,19 @@
 
                     <div class="burger__submenu-contents">
                         <div class="burger_submenu-entry">
-                            <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488807485601">
+                            <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488807485601" class="burger__link">
                                 <g:message code="menu.lists.threatenedSpecies" />
                             </a>
                         </div>
 
                         <div class="burger_submenu-entry">
-                            <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488802807768">
+                            <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488802807768" class="burger__link">
                                 <g:message code="menu.lists.invasiveSpecies" />
                             </a>
                         </div>
 
                         <div class="burger_submenu-entry">
-                            <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1491397493412">
+                            <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1491397493412" class="burger__link">
                                 <g:message code="menu.lists.protectedSpecies" />
                             </a>
                         </div>
@@ -171,19 +136,19 @@
 
                     <div class="burger__submenu-contents">
                         <div class="burger_submenu-entry">
-                            <a href="http://ala-test.ut.ee/generic-hub/occurrences/search?q=basis_of_record:HumanObservation&fq=&pageSize=100">
+                            <a href="http://ala-test.ut.ee/generic-hub/occurrences/search?q=basis_of_record:HumanObservation&fq=&pageSize=100" class="burger__link">
                                 <g:message code="menu.observations.recentObservations" />
                             </a>
                         </div>
 
                         <div class="burger_submenu-entry">
-                            <a href="https://plutof.ut.ee/#/observation/add">
+                            <a href="https://plutof.ut.ee/#/observation/add" class="burger__link">
                                 <g:message code="menu.observations.addObservation" />
                             </a>
                         </div>
 
                         <div class="burger_submenu-entry">
-                            <a href="http://ala-test.ut.ee/generic-hub">
+                            <a href="http://ala-test.ut.ee/generic-hub" class="burger__link">
                                 <g:message code="menu.observations.search" />
                             </a>
                         </div>
@@ -192,7 +157,7 @@
 
                 <div class="burger__submenu">
                     <div class="burger__submenu-title">
-                        <a href="http://ala-test.ut.ee/collectory/">
+                        <a href="http://ala-test.ut.ee/collectory/" class="burger__link">
                             <g:message code="menu.collections.label" />
                         </a>
                     </div>
@@ -200,41 +165,9 @@
 
                 <div class="burger__submenu">
                     <div class="burger__submenu-title">
-                        <a href="http://ala-test.ut.ee/collectory/datasets">
+                        <a href="http://ala-test.ut.ee/collectory/datasets" class="burger__link">
                             <g:message code="menu.datasets.label" />
                         </a>
-                    </div>
-                </div>
-
-                <div class="burger__submenu">
-                    <div class="burger__submenu-title">
-                        <g:message code="menu.atlases.label" />
-                    </div>
-
-                    <div class="burger__submenu-contents">
-                        <div class="burger_submenu-entry">
-                            <a href="">
-                                <g:message code="menu.atlases.taimeatlas" />
-                            </a>
-                        </div>
-
-                        <div class="burger_submenu-entry">
-                            <a href="">
-                                <g:message code="menu.atlases.taimeatlasSquares" />
-                            </a>
-                        </div>
-
-                        <div class="burger_submenu-entry">
-                            <a href="">
-                                <g:message code="menu.atlases.taxonDistributionMap" />
-                            </a>
-                        </div>
-
-                        <div class="burger_submenu-entry">
-                            <a href="">
-                                <g:message code="menu.atlases.birdNestingAtlas" />
-                            </a>
-                        </div>
                     </div>
                 </div>
 
