@@ -746,6 +746,7 @@ section {
 .page-header__subtitle {
     color: #3a3e42;
     font-size: 16px;
+    max-width: 38em;
 }
 
 .page-header-links {
