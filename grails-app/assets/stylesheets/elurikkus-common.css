@@ -772,10 +772,10 @@ section {
     display: inline-block;
     text-align: center;
     line-height: 1.3em;
-    background-color: #DDD;
+    background-color: inherit;
     color: #DDD;
     font-size: 12px;
-    margin: 2px 4px 2px 0;
+    margin: 4px 4px 2px 0;
     position: relative;
 }
 
