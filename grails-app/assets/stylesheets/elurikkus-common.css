@@ -768,7 +768,7 @@ section {
 }
 
 /* Gallery styling */
-.imgCon {
+.gallery-grid {
     display: inline-block;
     text-align: center;
     line-height: 1.3em;
@@ -779,12 +779,12 @@ section {
     position: relative;
 }
 
-.imgCon img {
+.gallery-grid__thumb {
     height: 170px;
     min-width: 150px;
 }
 
-.imgCon .brief {
+.gallery-grid__thumb__footer {
     opacity: 0.8;
     position: absolute;
     bottom: 0;
@@ -795,10 +795,4 @@ section {
     padding: 4px 5px 2px 5px;
     color: black;
     background-color: white;
-}
-
-.imgCon .detail {
-    color: white;
-    background-color: black;
-    opacity: 0.7;
 }
