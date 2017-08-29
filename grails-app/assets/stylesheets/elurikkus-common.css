@@ -768,7 +768,7 @@ section {
 }
 
 /* Gallery styling */
-.gallery-grid {
+.gallery-thumb {
     display: inline-block;
     text-align: center;
     line-height: 1.3em;
@@ -779,12 +779,12 @@ section {
     position: relative;
 }
 
-.gallery-grid__thumb {
+.gallery-thumb__img {
     height: 170px;
     min-width: 150px;
 }
 
-.gallery-grid__thumb__footer {
+.gallery-thumb__footer {
     opacity: 0.8;
     position: absolute;
     bottom: 0;
