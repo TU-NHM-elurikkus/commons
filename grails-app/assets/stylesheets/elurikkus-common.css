@@ -750,7 +750,9 @@ section {
 }
 
 .page-header {
-    padding: 3.5rem 0;
+    padding-top: 3.5rem;
+    /* This allows the header to collapse into vertical margins. */
+    margin-bottom: 3.5rem;
 }
 
 .page-header__title {
@@ -802,4 +804,11 @@ section {
     padding: 4px 5px 2px 5px;
     color: black;
     background-color: white;
+}
+
+/**
+ * Kind of a mini-paragraph meant to collapse vertical margins when stacked.
+ */
+.info-line {
+    margin: 0.625rem 0;
 }
