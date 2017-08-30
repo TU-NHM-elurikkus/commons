@@ -9,32 +9,25 @@
     <nav class="menu" role="navigation">
         <span class="submenu">
             <div class="submenu__title">
-                <a class="submenu__title-link ">
+                <a href="http://ala-test.ut.ee/bie-hub/search/" class="submenu__title-link" class="submenu__dropdown-link">
+                    <g:message code="menu.species.label" />
+                </a>
+            </div>
+        </span>
+
+        <span class="submenu">
+            <div class="submenu__title">
+                <a href="http://ala-test.ut.ee/lists/" class="submenu__title-link" class="submenu__dropdown-link">
                     <g:message code="menu.lists.label" />
                 </a>
-
-                <span class="submenu__title-addon">
-                    &#9660;
-                </span>
             </div>
+        </span>
 
-            <div class="submenu__dropdown">
-                <div class="submenu__dropdown-pointer"></div>
-                <div class="submenu__dropdown-pointer-fill"></div>
-
-                <div class="submenu__dropdown-content">
-                    <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488807485601" class="submenu__dropdown-link">
-                        <g:message code="menu.lists.threatenedSpecies" />
-                    </a>
-
-                    <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488802807768" class="submenu__dropdown-link">
-                        <g:message code="menu.lists.invasiveSpecies" />
-                    </a>
-
-                    <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1491397493412" class="submenu__dropdown-link">
-                        <g:message code="menu.lists.protectedSpecies" />
-                    </a>
-                </div>
+        <span class="submenu">
+            <div class="submenu__title">
+                <a href="http://ala-test.ut.ee/regions/" class="submenu__title-link" class="submenu__dropdown-link">
+                    <g:message code="menu.regions.label" />
+                </a>
             </div>
         </span>
 
@@ -104,28 +97,25 @@
             <div class="burger__popup-content">
                 <div class="burger__submenu">
                     <div class="burger__submenu-title">
-                        <g:message code="menu.lists.label" />
+                        <a href="http://ala-test.ut.ee/bie-hub/search/" class="burger__link">
+                            <g:message code="menu.species.label" />
+                        </a>
                     </div>
+                </div>
 
-                    <div class="burger__submenu-contents">
-                        <div class="burger_submenu-entry">
-                            <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488807485601" class="burger__link">
-                                <g:message code="menu.lists.threatenedSpecies" />
-                            </a>
-                        </div>
+                <div class="burger__submenu">
+                    <div class="burger__submenu-title">
+                        <a href="http://ala-test.ut.ee/lists/" class="burger__link">
+                            <g:message code="menu.lists.label" />
+                        </a>
+                    </div>
+                </div>
 
-                        <div class="burger_submenu-entry">
-                            <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1488802807768" class="burger__link">
-                                <g:message code="menu.lists.invasiveSpecies" />
-                            </a>
-                        </div>
-
-                        <div class="burger_submenu-entry">
-                            <a href="http://ala-test.ut.ee/lists/speciesListItem/list/drt1491397493412" class="burger__link">
-                                <g:message code="menu.lists.protectedSpecies" />
-                            </a>
-                        </div>
-
+                <div class="burger__submenu">
+                    <div class="burger__submenu-title">
+                        <a href="http://ala-test.ut.ee/regions/" class="burger__link">
+                            <g:message code="menu.regions.label" />
+                        </a>
                     </div>
                 </div>
 
