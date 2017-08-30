@@ -809,6 +809,6 @@ section {
 /**
  * Kind of a mini-paragraph meant to collapse vertical margins when stacked.
  */
-.info-line {
-    margin: 0.625rem 0;
+.vertical-block {
+    margin: 1em 0;
 }
