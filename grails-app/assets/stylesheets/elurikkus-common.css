@@ -68,13 +68,13 @@ a:hover {
 
 .erk-link, .erk-link-button {
     color: #0587aa;
-    text-decoration: none;
     transition: color .1s ease;
     cursor: pointer;
 }
 
 .erk-link:hover, .erk-link-button:hover {
     color: #06a6d2;
+    text-decoration: underline;
 }
 
 .erk-link-button {
