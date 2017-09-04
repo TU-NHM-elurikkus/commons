@@ -258,12 +258,26 @@ input:active, textarea:active, select:active {
     padding: 0 15px;
     cursor: pointer;
     transition: all .1s ease;
+    line-height: 1em;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+/* Style links as buttons. */
+.erk-button-link {
+    height: 30px;
+    display: inline-block;
+    line-height: 28px; /* height - 2 * border width */
+}
+
+/* Style links as buttons. */
+.erk-button-link:hover {
+    text-decoration: none;
+    color: inherit;
 }
 
 .erk-button:hover, .erk-button: active, .erk-button:active {
