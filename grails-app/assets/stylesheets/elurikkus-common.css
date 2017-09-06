@@ -280,13 +280,13 @@ input:active, textarea:active, select:active {
     color: inherit;
 }
 
-.erk-button:hover, .erk-button: active, .erk-button:active {
+.erk-button:hover, .erk-button:active, .erk-button:active {
     border-color: #5ed1db;
     background-color: #5ed1db;
     color: #fff;
 }
 
-.erk-button: active, .erk-button:active {
+.erk-button:active, .erk-button:active {
     border-color: #2dbac5;
     outline: none;
 }
@@ -297,13 +297,13 @@ input:active, textarea:active, select:active {
     font-weight: 400;
 }
 
-.erk-button--light:hover, .erk-button--light: active, .erk-button--light:active {
+.erk-button--light:hover, .erk-button--light:active, .erk-button--light:active {
     color: #3a3e42;
     border-color: #8b8d8e;
     background-color: transparent;
 }
 
-.erk-button--light: active, .erk-button--light:active {
+.erk-button--light:active, .erk-button--light:active {
     border-color: #3a3e42;
 }
 
@@ -318,7 +318,7 @@ input:active, textarea:active, select:active {
     background-color: #5ed1db;
 }
 
-.erk-button--dark: active, .erk-button--dark:active {
+.erk-button--dark:active, .erk-button--dark:active {
     color: #fff;
 }
 
