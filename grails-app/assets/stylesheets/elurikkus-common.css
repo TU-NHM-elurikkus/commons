@@ -856,3 +856,12 @@ section {
 .detached-card {
     margin-bottom: 20px;
 }
+
+/**
+ * Align column content from bottom to top.
+ */
+.column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+}
