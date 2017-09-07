@@ -850,6 +850,13 @@ section {
     margin-left: .5rem;
 }
 
+/* Align column content from bottom to top. */
+.column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+}
+
 /**
  * Meant to be used with Bootstrap 4's card class.
  * Adds space between cards.
@@ -858,11 +865,13 @@ section {
     margin-bottom: 20px;
 }
 
-/**
- * Align column content from bottom to top.
- */
-.column-reverse {
-    display: flex;
-    flex-direction: column-reverse;
-    height: 100%;
+/* Low-key style for Bootstrap 4 cards. */
+.erk-card-minimal {
+    border: 0;
+}
+
+/* Low-key style for Bootstrap 4 cards. */
+.erk-card-header-minimal {
+    background-color: transparent;
+    padding: .75rem;
 }
