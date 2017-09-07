@@ -6,10 +6,18 @@
         <img src="http://ala-test.ut.ee/assets/images/elurikkus_logo.svg" class="logo" />
     </a>
 
+    <g:set var="recentRecords" value="http://ala-test.ut.ee/generic-hub/occurrences/search?q=basis_of_record:HumanObservation&dir=desc&sort=occurrence_date&fq=&pageSize=100" />
+    <g:set var="speciesSearch" value="http://ala-test.ut.ee/bie-hub/search/" />
+    <g:set var="checklistsSearch" value="http://ala-test.ut.ee/lists/" />
+    <g:set var="regionsLink" value="http://ala-test.ut.ee/regions/" />
+    <g:set var="collectoryLink" value="http://ala-test.ut.ee/collectory/" />
+    <g:set var="datasetsLink" value="http://ala-test.ut.ee/collectory/datasets" />
+    <g:set var="speciesSearch" value="http://ala-test.ut.ee/bie-hub/search/" />
+
     <nav class="menu" role="navigation">
         <span class="submenu">
             <div class="submenu__title">
-                <a href="http://ala-test.ut.ee/bie-hub/search/" class="submenu__title-link" class="submenu__dropdown-link">
+                <a href="${speciesSearch}" class="submenu__title-link" class="submenu__dropdown-link">
                     <g:message code="menu.species.label" />
                 </a>
             </div>
@@ -17,7 +25,7 @@
 
         <span class="submenu">
             <div class="submenu__title">
-                <a href="http://ala-test.ut.ee/lists/" class="submenu__title-link" class="submenu__dropdown-link">
+                <a href="${checklistsSearch}" class="submenu__title-link" class="submenu__dropdown-link">
                     <g:message code="menu.lists.label" />
                 </a>
             </div>
@@ -25,7 +33,7 @@
 
         <span class="submenu">
             <div class="submenu__title">
-                <a href="http://ala-test.ut.ee/regions/" class="submenu__title-link" class="submenu__dropdown-link">
+                <a href="${regionsLink}" class="submenu__title-link" class="submenu__dropdown-link">
                     <g:message code="menu.regions.label" />
                 </a>
             </div>
@@ -33,38 +41,15 @@
 
         <span class="submenu">
             <div class="submenu__title">
-                <a class="submenu__title-link ">
-                    <g:message code="menu.observations.label" />
+                <a href="${recentRecords}" class="submenu__title-link" class="submenu__dropdown-link">
+                    <g:message code="menu.records.label" />
                 </a>
-
-                <span class="submenu__title-addon">
-                    &#9660;
-                </span>
-            </div>
-
-            <div class="submenu__dropdown">
-                <div class="submenu__dropdown-pointer"></div>
-                <div class="submenu__dropdown-pointer-fill"></div>
-
-                <div class="submenu__dropdown-content">
-                    <a href="http://ala-test.ut.ee/generic-hub/occurrences/search?q=basis_of_record:HumanObservation&fq=&pageSize=100" class="submenu__dropdown-link">
-                        <g:message code="menu.observations.recentObservations" />
-                    </a>
-
-                    <a href="https://plutof.ut.ee/#/observation/add" class="submenu__dropdown-link">
-                        <g:message code="menu.observations.addObservation" />
-                    </a>
-
-                    <a href="http://ala-test.ut.ee/generic-hub" class="submenu__dropdown-link">
-                        <g:message code="menu.observations.search" />
-                    </a>
-                </div>
             </div>
         </span>
 
         <span class="submenu">
             <div class="submenu__title">
-                <a href="http://ala-test.ut.ee/collectory/" class="submenu__title-link" class="submenu__dropdown-link">
+                <a href="${collectoryLink}" class="submenu__title-link" class="submenu__dropdown-link">
                     <g:message code="menu.collections.label" />
                 </a>
             </div>
@@ -72,7 +57,7 @@
 
         <span class="submenu">
             <div class="submenu__title">
-                <a href="http://ala-test.ut.ee/collectory/datasets" class="submenu__title-link">
+                <a href="${datasetsLink}" class="submenu__title-link">
                     <g:message code="menu.datasets.label" />
                 </a>
             </div>
@@ -97,7 +82,7 @@
             <div class="burger__popup-content">
                 <div class="burger__submenu">
                     <div class="burger__submenu-title">
-                        <a href="http://ala-test.ut.ee/bie-hub/search/" class="burger__link">
+                        <a href="${speciesSearch}" class="burger__link">
                             <g:message code="menu.species.label" />
                         </a>
                     </div>
@@ -105,7 +90,7 @@
 
                 <div class="burger__submenu">
                     <div class="burger__submenu-title">
-                        <a href="http://ala-test.ut.ee/lists/" class="burger__link">
+                        <a href="${checklistsSearch}" class="burger__link">
                             <g:message code="menu.lists.label" />
                         </a>
                     </div>
@@ -113,7 +98,7 @@
 
                 <div class="burger__submenu">
                     <div class="burger__submenu-title">
-                        <a href="http://ala-test.ut.ee/regions/" class="burger__link">
+                        <a href="${regionsLink}" class="burger__link">
                             <g:message code="menu.regions.label" />
                         </a>
                     </div>
@@ -121,33 +106,15 @@
 
                 <div class="burger__submenu">
                     <div class="burger__submenu-title">
-                        <g:message code="menu.observations.label" />
-                    </div>
-
-                    <div class="burger__submenu-contents">
-                        <div class="burger_submenu-entry">
-                            <a href="http://ala-test.ut.ee/generic-hub/occurrences/search?q=basis_of_record:HumanObservation&fq=&pageSize=100" class="burger__link">
-                                <g:message code="menu.observations.recentObservations" />
-                            </a>
-                        </div>
-
-                        <div class="burger_submenu-entry">
-                            <a href="https://plutof.ut.ee/#/observation/add" class="burger__link">
-                                <g:message code="menu.observations.addObservation" />
-                            </a>
-                        </div>
-
-                        <div class="burger_submenu-entry">
-                            <a href="http://ala-test.ut.ee/generic-hub" class="burger__link">
-                                <g:message code="menu.observations.search" />
-                            </a>
-                        </div>
+                        <a href="${recentRecords}" class="burger__link">
+                            <g:message code="menu.records.label" />
+                        </a>
                     </div>
                 </div>
 
                 <div class="burger__submenu">
                     <div class="burger__submenu-title">
-                        <a href="http://ala-test.ut.ee/collectory/" class="burger__link">
+                        <a href="${collectoryLink}" class="burger__link">
                             <g:message code="menu.collections.label" />
                         </a>
                     </div>
@@ -155,7 +122,7 @@
 
                 <div class="burger__submenu">
                     <div class="burger__submenu-title">
-                        <a href="http://ala-test.ut.ee/collectory/datasets" class="burger__link">
+                        <a href="${datasetsLink}" class="burger__link">
                             <g:message code="menu.datasets.label" />
                         </a>
                     </div>
@@ -172,18 +139,5 @@
                 ✕
             </button>
         </div>
-
-        <script>
-            var burgerPopup = document.getElementById('burger-popup');
-            var burgerOpenBtn = document.getElementById('burger-open');
-
-            document.getElementById('burger-open').addEventListener('click', function() {
-                burgerPopup.className = 'burger__popup burger__popup--open';
-            });
-
-            document.getElementById('burger-close').addEventListener('click', function() {
-                burgerPopup.className = 'burger__popup';
-            });
-        </script>
     </nav>
 </header>
