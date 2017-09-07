@@ -6,6 +6,7 @@
 *= require menu
 *= require commons
 *= require filters
+*= require taxonomy
 */
 
 *, *:after, *:before {

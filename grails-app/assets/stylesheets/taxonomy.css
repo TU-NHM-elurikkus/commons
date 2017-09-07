@@ -1,0 +1,13 @@
+/* Formatting for indexed taxa scientific names */
+
+/* Goofed up: forgot that spans are spaced only if there is, well, space between them (usually newline/tabs).
+ * This separates parts before the next taxonomy import
+ */
+.scientific-name__primary:after, .scientific-name__rank-prefix:after, .scientific-name__infraspecific:after {
+    content: ' '
+}
+
+/* Epithets for subgenus taxa are italicized */
+.scientific-name--subgenus .scientific-name__primary, .scientific-name--subgenus .scientific-name__infraspecific {
+    font-style: italic;
+}
