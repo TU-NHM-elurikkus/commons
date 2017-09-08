@@ -35,6 +35,11 @@ hr {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     margin: 0;
+    /**
+     * Controlled line height mainly to combat Bootstrap 4's line height of
+     * 1.1, which can't fully contain the text, depedning on font, I suppose.
+     */
+    line-height: 1.2;
 }
 
 h1 {
