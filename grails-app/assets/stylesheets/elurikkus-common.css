@@ -631,7 +631,7 @@ body {
 
 .burger__close-button {
     position: absolute;
-    top: 1rem;
+    top: 0.5rem;
     right: 1rem;
     height: 2rem;
     line-height: 1rem;
