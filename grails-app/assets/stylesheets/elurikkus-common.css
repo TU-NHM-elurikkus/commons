@@ -642,13 +642,6 @@ body {
     cursor: pointer;
 }
 
-@media(max-width: 450px) {
-    .burger__close-button {
-        top: 10px;
-        right: 10px;
-    }
-}
-
 .burger__open-button {
     height: 2rem;
     line-height: 2rem;
