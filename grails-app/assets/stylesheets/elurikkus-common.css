@@ -881,3 +881,13 @@ section {
     background-color: transparent;
     padding: .75rem;
 }
+
+.undecorated {
+    color: inherit;
+    text-decoration: none;
+}
+
+.undecorated:hover {
+    color: inherit;
+    text-decoration: none;
+}
