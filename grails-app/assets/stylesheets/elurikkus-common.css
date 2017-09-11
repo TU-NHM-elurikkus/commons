@@ -884,3 +884,8 @@ section {
     color: inherit;
     text-decoration: none;
 }
+
+/* eElurikkus colours for Bootstrap 4's progress bar. */
+.erk-progress-bar {
+    background-color: #3dc8d3;
+}
