@@ -785,6 +785,7 @@ section {
     color: #3a3e42;
     font-size: 16px;
     max-width: 38em;
+    margin-bottom: 1rem;
 }
 
 .page-header-links {
