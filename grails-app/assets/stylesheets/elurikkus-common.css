@@ -847,6 +847,7 @@ section {
     /* Vertical spacing for when control groups get stacked vertically. */
     margin-bottom: .5rem;
     margin-left: .5rem;
+    text-align: right;
 }
 
 /* Align column content from bottom to top. */
