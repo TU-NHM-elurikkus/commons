@@ -690,6 +690,10 @@ body {
     display: inline-block;
 }
 
+#language-nav {
+    align-self: center;
+}
+
 section {
     margin-bottom: 3rem;
 }

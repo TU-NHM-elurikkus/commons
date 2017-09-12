@@ -62,12 +62,6 @@
                 </a>
             </div>
         </span>
-
-        <span class="submenu">
-            <div class="submenu__title">
-                <localeSwitcher:localeButton uri="${request.forwardURI}" styleClass="submenu__title-link" />
-            </div>
-        </span>
     </nav>
 
     <nav class="burger" role="navigation">
@@ -139,5 +133,13 @@
                 ✕
             </button>
         </div>
+    </nav>
+
+    <nav id="language-nav">
+        <span class="submenu">
+            <div class="submenu__title">
+                <localeSwitcher:localeButton uri="${request.forwardURI}" styleClass="submenu__title-link" />
+            </div>
+        </span>
     </nav>
 </header>
