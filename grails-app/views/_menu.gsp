@@ -2,7 +2,9 @@
     <%-- XXX: Not the best place for this, but unless we make a layout to use for each module, there is no other --%>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-    <a class="elurikkus-menu__brand" href="http://ala-test.ut.ee/">
+    <g:set var="locale" value="${org.springframework.web.servlet.support.RequestContextUtils.getLocale(request).toString()}" />
+
+    <a class="elurikkus-menu__brand" href="http://ala-test.ut.ee/${locale == 'en' ? 'en' : ''}">
         <img src="http://ala-test.ut.ee/assets/images/elurikkus_logo.svg" class="logo" />
     </a>
 
