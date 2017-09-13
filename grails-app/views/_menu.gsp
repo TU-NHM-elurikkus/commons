@@ -1,6 +1,6 @@
 <header class="header" role="banner">
     <%-- XXX: Not the best place for this, but unless we make a layout to use for each module, there is no other --%>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" rel="stylesheet" type="text/css">
 
     <g:set var="locale" value="${org.springframework.web.servlet.support.RequestContextUtils.getLocale(request).toString()}" />
 
