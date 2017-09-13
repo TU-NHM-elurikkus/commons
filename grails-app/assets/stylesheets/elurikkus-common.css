@@ -447,11 +447,17 @@ body {
     display: none;
 }
 
+#language-nav {
+    display: none;
+    align-self: center;
+}
+
 @media(min-width: 1050px) {
-    .menu {
+    .menu, #language-nav {
         display: block;
     }
 }
+
 
 .submenu {
     display: inline-block;
@@ -688,10 +694,6 @@ body {
 
 .language > ul > li {
     display: inline-block;
-}
-
-#language-nav {
-    align-self: center;
 }
 
 section {
