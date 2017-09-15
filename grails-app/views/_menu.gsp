@@ -8,13 +8,13 @@
         <img src="http://ala-test.ut.ee/assets/images/elurikkus_logo.svg" class="logo" />
     </a>
 
-    <g:set var="recentRecords" value="http://ala-test.ut.ee/generic-hub/occurrences/search?dir=desc&sort=occurrence_date&fq=&pageSize=100" />
-    <g:set var="speciesSearch" value="http://ala-test.ut.ee/bie-hub/search/" />
-    <g:set var="checklistsSearch" value="http://ala-test.ut.ee/lists/" />
-    <g:set var="regionsLink" value="http://ala-test.ut.ee/regions/" />
-    <g:set var="collectoryLink" value="http://ala-test.ut.ee/collectory/" />
-    <g:set var="datasetsLink" value="http://ala-test.ut.ee/collectory/datasets" />
-    <g:set var="speciesSearch" value="http://ala-test.ut.ee/bie-hub/search/" />
+    <g:set var="recentRecords" value="http://ala-test.ut.ee/generic-hub/occurrences/search?dir=desc&sort=occurrence_date&fq=&pageSize=100&lang=${locale}" />
+    <g:set var="speciesSearch" value="http://ala-test.ut.ee/bie-hub/search?lang=${locale}" />
+    <g:set var="checklistsSearch" value="http://ala-test.ut.ee/lists?lang=${locale}" />
+    <g:set var="regionsLink" value="http://ala-test.ut.ee/regions?lang=${locale}" />
+    <g:set var="collectoryLink" value="http://ala-test.ut.ee/collectory?lang=${locale}" />
+    <g:set var="datasetsLink" value="http://ala-test.ut.ee/collectory/datasets?lang=${locale}" />
+    <g:set var="speciesSearch" value="http://ala-test.ut.ee/bie-hub/search?lang=${locale}" />
 
     <nav class="menu" role="navigation">
         <span class="submenu">
