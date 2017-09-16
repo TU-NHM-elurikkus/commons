@@ -8,9 +8,9 @@
         <img src="http://ala-test.ut.ee/assets/images/elurikkus_logo.svg" class="logo" />
     </a>
 
-    <g:javascript>
+    <script>
         var GLOBAL_LOCALE = "${locale}";
-    </g:javascript>
+    </script>
 
     <g:set var="recentRecords" value="http://ala-test.ut.ee/generic-hub/occurrences/search?dir=desc&sort=occurrence_date&fq=&pageSize=100" />
     <g:set var="speciesSearch" value="http://ala-test.ut.ee/bie-hub/search/" />
