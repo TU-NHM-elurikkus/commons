@@ -201,31 +201,7 @@ input:active, textarea:active, select:active {
 }
 
 .erk-select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    color: #3a3e42;
-}
-
-.erk-select__wrap {
-    position: relative;
-}
-
-.erk-select--multiple {
-    height: 80px;
-}
-
-.erk-select:before {
-    content: '\f078';
-    font-family: FontAwesome;
-    color: #8b8d8e;
-    position: absolute;
-    pointer-events: none;
-    font-size: 14px;
-    top: 6px;
-    right: 0;
-    width: 32px;
-    height: 25px;
-    text-align: center;
+    width: 100%;
 }
 
 .erk-button {
