@@ -1,6 +1,7 @@
 //= require tether.min
 //= require popper.min
 //= require bootstrap.min
+//= require jquery-i18n-properties-1.2.7
 
 $(document).ready(function() {
     $.i18n.properties({
