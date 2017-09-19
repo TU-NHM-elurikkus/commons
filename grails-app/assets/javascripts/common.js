@@ -3,6 +3,13 @@
 //= require bootstrap.min
 
 $(document).ready(function() {
+    $.i18n.properties({
+        name: 'messages',
+        path: GLOBAL_LOCALE_CONF.contextPath + '/download/messages/',
+        mode: 'map',
+        language: GLOBAL_LOCALE_CONF.locale
+    });
+
     var burgerPopup = document.getElementById('burger-popup');
     var burgerOpenBtn = document.getElementById('burger-open');
 
@@ -22,7 +29,7 @@ $(document).ready(function() {
 * when moving from one app to another
 */
 function setLanguage() {
-    var grailsLocale = GLOBAL_LOCALE;
+    var grailsLocale = GLOBAL_LOCALE_CONF.locale;
     var language = localStorage.getItem('language');
 
     // In case this is the first time setting system wide lang

@@ -1,15 +1,20 @@
+<%@ page import="org.springframework.context.i18n.LocaleContextHolder" %>
+
 <header class="header" role="banner">
     <%-- XXX: Not the best place for this, but unless we make a layout to use for each module, there is no other --%>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" rel="stylesheet" type="text/css">
 
-    <g:set var="locale" value="${org.springframework.web.servlet.support.RequestContextUtils.getLocale(request).toString()}" />
+    <g:set var="locale" value="${LocaleContextHolder.getLocale().toString()}" />
 
     <a class="elurikkus-menu__brand" href="http://ala-test.ut.ee/${locale == 'en' ? 'en' : ''}">
         <img src="http://ala-test.ut.ee/assets/images/elurikkus_logo.svg" class="logo" />
     </a>
 
     <script>
-        var GLOBAL_LOCALE = "${locale}";
+        var GLOBAL_LOCALE_CONF = {
+            locale: "${locale}",
+            contextPath: "${request.contextPath}"
+        }
     </script>
 
     <g:set var="recentRecords" value="http://ala-test.ut.ee/generic-hub/occurrences/search?dir=desc&sort=occurrence_date&fq=&pageSize=100" />
