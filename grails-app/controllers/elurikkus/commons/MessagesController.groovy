@@ -26,7 +26,7 @@ class MessagesController {
             locale = new Locale(locBits[1], locBits[2]?:'')
         }
 
-        Map props = messageSource.listMessageCodes(locale?:request.locale)
+        Map props = messageSource.listMessageCodes(locale ?: request.locale)
         //log.debug "props = ${props}"
 
         //Alan modified it for outstream utf-8 on 16/08/2014 --- START
