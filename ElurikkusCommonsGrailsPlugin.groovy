@@ -1,3 +1,5 @@
+import elurikkus.commons.ExtendedPluginAwareResourceBundleMessageSource
+
 class ElurikkusCommonsGrailsPlugin {
     // the plugin version
     def version = "0.2-SNAPSHOT"
@@ -42,7 +44,14 @@ class ElurikkusCommonsGrailsPlugin {
 
     def doWithSpring = {
         // TODO Implement runtime spring config (optional)
+        // Custom message source
+        messageSource(ExtendedPluginAwareResourceBundleMessageSource) {
+            basenames = ["WEB-INF/grails-app/i18n/messages"] as String[]
+            cacheSeconds = (60 * 60 * 6) // 6 hours
+            useCodeAsDefaultMessage = false
+        }
     }
+
 
     def doWithDynamicMethods = { ctx ->
         // TODO Implement registering dynamic methods to classes (optional)
