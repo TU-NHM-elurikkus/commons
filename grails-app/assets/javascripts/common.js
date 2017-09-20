@@ -7,7 +7,7 @@
 $(document).ready(function() {
     $.i18n.properties({
         name: 'messages',
-        path: GLOBAL_LOCALE_CONF.contextPath + '/download/messages/',
+        path: GLOBAL_LOCALE_CONF.contextPath + '/messages/i18n/',
         mode: 'map',
         language: GLOBAL_LOCALE_CONF.locale
     });
