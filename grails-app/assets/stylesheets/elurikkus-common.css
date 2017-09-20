@@ -7,6 +7,7 @@
 *= require commons
 *= require filters
 *= require taxonomy
+*= require charts
 */
 
 *, *:after, *:before {

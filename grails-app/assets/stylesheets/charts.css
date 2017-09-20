@@ -1,0 +1,14 @@
+/**
+ * TODO Move to charts plugin if we are going to use it in all modules.
+ */
+
+/* Chart container */
+.chart {
+    /* Same as section */
+    margin-bottom: 3rem;
+}
+
+/* Taxon pie chart */
+#taxa-chart {
+    overflow-x: auto;
+}
