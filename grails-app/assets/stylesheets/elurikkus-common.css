@@ -787,8 +787,6 @@ section {
  */
 .inline-controls {
     display: flex;
-    /* Cancels bottom-most margin. */
-    margin-bottom: -.5rem;
 }
 
 /* Right hand side float configuration. */
