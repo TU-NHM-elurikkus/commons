@@ -1,12 +1,13 @@
+//= require jquery
+//= require jquery-i18n-properties-1.2.7
 //= require tether.min
 //= require popper.min
 //= require bootstrap.min
-//= require jquery-i18n-properties-1.2.7
 
 $(document).ready(function() {
     $.i18n.properties({
         name: 'messages',
-        path: GLOBAL_LOCALE_CONF.contextPath + '/download/messages/',
+        path: GLOBAL_LOCALE_CONF.contextPath + '/messages/i18n/',
         mode: 'map',
         language: GLOBAL_LOCALE_CONF.locale
     });
