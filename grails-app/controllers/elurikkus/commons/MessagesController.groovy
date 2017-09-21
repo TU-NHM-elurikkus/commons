@@ -22,17 +22,16 @@ class MessagesController {
             // Assume standard messageSource file name pattern:
             // messages.properties, messages_en.properties, messages_en_US.properties
             // String locale_suffix = id.replaceFirst(/messages_(.*)/,'$1')
-            List locBits = id?.tokenize('_')
-            locale = new Locale(locBits[1], locBits[2]?:'')
+            String localeCode = id?.tokenize('_')[1]
+
+            // generic-collectory has .properties in id. No other app does that ...
+            localeCode = localeCode.tokenize('.')[0]
+            locale = new Locale(localeCode)
         }
 
         Map props = messageSource.listMessageCodes(locale ?: request.locale)
-        //log.debug "props = ${props}"
 
-        //Alan modified it for outstream utf-8 on 16/08/2014 --- START
-        //response.setHeader("Content-type", "text/plain")
         response.setHeader("Content-type", "text/plain; charset=UTF-8")
-        //Alan modified it --- END
 
         def messages = props.collect{ "${it.key}=${it.value}" }
 
