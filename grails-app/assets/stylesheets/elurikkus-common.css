@@ -790,6 +790,11 @@ section {
     display: flex;
 }
 
+.inline-controls__group {
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+}
+
 /* Right hand side float configuration. */
 .inline-controls--right {
     flex-wrap: wrap-reverse;
@@ -799,8 +804,8 @@ section {
 /* Control group style for right hand side float configuration. */
 .inline-controls--right .inline-controls__group {
     /* Vertical spacing for when control groups get stacked vertically. */
-    margin-bottom: .5rem;
     margin-left: .5rem;
+    margin-right: initial;
     text-align: right;
 }
 
