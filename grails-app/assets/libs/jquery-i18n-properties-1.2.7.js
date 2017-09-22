@@ -115,7 +115,11 @@
     $.i18n.prop = function (key /* Add parameters as function arguments as necessary  */) {
 
         var value = $.i18n.map[key];
-        if (value === null) {
+
+        /**
+         * XXX TODO Pull request to the plugin's repo.
+         */
+        if (value === null || value === undefined) {
             return '[' + key + ']';
         }
 
