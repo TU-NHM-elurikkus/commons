@@ -66,3 +66,10 @@
     /* Matching the card padding of Bootstrap 4. */
     margin-bottom: 1.25rem;
 }
+
+/**
+ * Override Bootstrap 4's flex-end justification in ekko-lightbox's modals.
+ */
+.ekko-lightbox .modal-footer {
+    justify-content: flex-start;
+}
