@@ -71,5 +71,16 @@
  * Override Bootstrap 4's flex-end justification in ekko-lightbox's modals.
  */
 .ekko-lightbox .modal-footer {
-    justify-content: flex-start;
+    align-items: normal;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+/* We have the gallery (ekko-lightbox) modal footer content in two sections:
+ * main details on the left, links on the right.
+ * This keeps links on the right hand side of a row when the parent element's
+ * width forces the two sections to separare rows.
+ */
+.ekko-lightbox .modal-footer > :not(:first-child) {
+    margin-left: auto;
 }
