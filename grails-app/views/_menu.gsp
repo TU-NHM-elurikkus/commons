@@ -22,7 +22,7 @@
     <g:set var="checklistsSearch" value="http://ala-test.ut.ee/lists/" />
     <g:set var="regionsLink" value="http://ala-test.ut.ee/regions/" />
     <g:set var="collectoryLink" value="http://ala-test.ut.ee/collectory/" />
-    <g:set var="datasetsLink" value="http://ala-test.ut.ee/collectory/datasets/" />
+    <g:set var="datasetsLink" value="http://ala-test.ut.ee/collectory/public/datasets/" />
     <g:set var="speciesSearch" value="http://ala-test.ut.ee/bie-hub/search/" />
 
     <nav class="menu" role="navigation">
