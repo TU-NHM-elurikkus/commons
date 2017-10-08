@@ -177,7 +177,7 @@ input, textarea, select {
     border: #cacbcc 1px solid;
     border-radius: 1px;
     font-size: 14px;
-    padding: 5px;
+    padding: 0px 5px;
     transition: all .1s ease;
 }
 
