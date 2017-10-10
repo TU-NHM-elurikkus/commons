@@ -6,8 +6,8 @@
 
     <g:set var="locale" value="${LocaleContextHolder.getLocale().toString()}" />
 
-    <a class="elurikkus-menu__brand" href="http://ala-test.ut.ee/${locale == 'en' ? 'en' : ''}">
-        <img src="http://ala-test.ut.ee/assets/images/elurikkus_logo.svg" class="logo" />
+    <a class="elurikkus-menu__brand" href="${grailsApplication.config.serverRoot}/${locale == 'en' ? 'en' : ''}">
+        <img src="${grailsApplication.config.serverRoot}/assets/images/elurikkus_logo.svg" class="logo" />
     </a>
 
     <script>
@@ -17,13 +17,13 @@
         }
     </script>
 
-    <g:set var="recentRecords" value="http://ala-test.ut.ee/generic-hub/occurrences/search?dir=desc&sort=occurrence_date&fq=&pageSize=100" />
-    <g:set var="speciesSearch" value="http://ala-test.ut.ee/bie-hub/search/" />
-    <g:set var="checklistsSearch" value="http://ala-test.ut.ee/lists/" />
-    <g:set var="regionsLink" value="http://ala-test.ut.ee/regions/" />
-    <g:set var="collectoryLink" value="http://ala-test.ut.ee/collectory/" />
-    <g:set var="datasetsLink" value="http://ala-test.ut.ee/collectory/public/datasets/" />
-    <g:set var="speciesSearch" value="http://ala-test.ut.ee/bie-hub/search/" />
+    <g:set var="recentRecords" value="${grailsApplication.config.serverRoot}/generic-hub/occurrences/search?dir=desc&sort=occurrence_date&fq=&pageSize=100" />
+    <g:set var="speciesSearch" value="${grailsApplication.config.serverRoot}/bie-hub/search/" />
+    <g:set var="checklistsSearch" value="${grailsApplication.config.serverRoot}/lists/" />
+    <g:set var="regionsLink" value="${grailsApplication.config.serverRoot}/regions/" />
+    <g:set var="collectoryLink" value="${grailsApplication.config.serverRoot}/collectory/" />
+    <g:set var="datasetsLink" value="${grailsApplication.config.serverRoot}/collectory/public/datasets/" />
+    <g:set var="speciesSearch" value="${grailsApplication.config.serverRoot}/bie-hub/search/" />
 
     <nav class="menu" role="navigation">
         <span class="submenu">

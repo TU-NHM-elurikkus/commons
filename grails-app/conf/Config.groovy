@@ -1,3 +1,5 @@
+commons_config = "/data/commons/config/commons-config.properties"
+
 // configuration for plugin testing - will not be included in the plugin zip
 
 log4j = {
