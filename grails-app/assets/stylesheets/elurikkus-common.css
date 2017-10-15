@@ -738,12 +738,12 @@ section {
 }
 
 .page-header-links {
-    margin: 0 -.25rem 0 -.25rem;
+    margin: 0 -10px;
 }
 
 .page-header-links__link {
     display: inline-block;
-    margin: 0 .25rem;
+    margin: 0 10px;
 }
 
 /* Gallery styling */
