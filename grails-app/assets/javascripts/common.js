@@ -1,8 +1,12 @@
+//= require rollbar-config
+//= require rollbar-2.2.10
 //= require jquery
 //= require jquery-i18n-properties-1.2.7
 //= require tether.min
 //= require popper.min
 //= require bootstrap.min
+
+var GLOBAL_LOCALE_CONF;  // Populated by menu.gsp
 
 $(document).ready(function() {
     $.i18n.properties({
@@ -13,7 +17,6 @@ $(document).ready(function() {
     });
 
     var burgerPopup = document.getElementById('burger-popup');
-    var burgerOpenBtn = document.getElementById('burger-open');
 
     document.getElementById('burger-open').addEventListener('click', function() {
         burgerPopup.className = 'burger__popup burger__popup--open';
