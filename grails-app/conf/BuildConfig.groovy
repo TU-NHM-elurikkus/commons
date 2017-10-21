@@ -49,5 +49,6 @@ grails.project.dependency.resolution = {
         }
 
         compile ":asset-pipeline:2.14.1"
+        compile ":google-analytics:2.3.3"
     }
 }
