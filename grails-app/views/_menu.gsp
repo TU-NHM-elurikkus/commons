@@ -14,7 +14,7 @@
         var GLOBAL_LOCALE_CONF = {
             locale: "${locale}",
             contextPath: "${request.contextPath}"
-        }
+        };
     </script>
 
     <g:set var="recentRecords" value="${grailsApplication.config.serverRoot}/generic-hub/occurrences/search?dir=desc&sort=occurrence_date&fq=&pageSize=100" />
