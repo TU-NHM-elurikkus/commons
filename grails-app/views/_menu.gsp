@@ -23,7 +23,7 @@
         This is not the correct location for Google Analytics, but it will do
         until we decide to move it to its rightful place.
     --%>
-    <g:if test="${Environment.current.name == "demo"}">
+    <g:if test="${Environment.current.name == "production"}">
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108395336-1"></script>
 
         <script>
