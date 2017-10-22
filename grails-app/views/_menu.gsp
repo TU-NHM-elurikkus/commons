@@ -1,4 +1,5 @@
 <%@ page import="org.springframework.context.i18n.LocaleContextHolder" %>
+<%@ page import="grails.util.Environment" %>
 
 <header class="header" role="banner">
     <%-- XXX: Not the best place for this, but unless we make a layout to use for each module, there is no other --%>
@@ -16,6 +17,22 @@
             contextPath: "${request.contextPath}"
         };
     </script>
+
+    <%--
+        Global site tag (gtag.js) - Google Analytics
+        This is not the correct location for Google Analytics, but it will do
+        until we decide to move it to its rightful place.
+    --%>
+    <g:if test="${Environment.current.name == "production"}">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108395336-1"></script>
+
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-108395336-1');
+        </script>
+    </g:if>
 
     <g:set var="recentRecords" value="${grailsApplication.config.serverRoot}/generic-hub/occurrences/search?dir=desc&sort=occurrence_date&fq=&pageSize=100" />
     <g:set var="speciesSearch" value="${grailsApplication.config.serverRoot}/bie-hub/search/" />
