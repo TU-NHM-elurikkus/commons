@@ -849,3 +849,8 @@ section {
 .erk-progress-bar {
     background-color: #3dc8d3;
 }
+
+.search-facet__header {
+    font-size: 14px;
+    font-weight: bold;
+}
