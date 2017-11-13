@@ -54,4 +54,46 @@
             </a>
         </div>
     </div>
+
+    <style>
+        /* open-sans-regular - latin */
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            src: url('${grailsApplication.config.serverRoot}/assets/fonts/open-sans-v15-latin-regular.eot'); /* IE9 Compat Modes */
+            src: local('Open Sans Regular'), local('OpenSans-Regular'),
+                url('${grailsApplication.config.serverRoot}/assets/fonts/open-sans-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                url('${grailsApplication.config.serverRoot}/assets/fonts/open-sans-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+                url('${grailsApplication.config.serverRoot}/assets/fonts/open-sans-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+                url('${grailsApplication.config.serverRoot}/assets/fonts/open-sans-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+                url('${grailsApplication.config.serverRoot}/assets/fonts/open-sans-v15-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+        }
+        /* open-sans-italic - latin */
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 400;
+            src: url('${grailsApplication.config.serverRoot}/assets/fonts/open-sans-v15-latin-italic.eot'); /* IE9 Compat Modes */
+            src: local('Open Sans Italic'), local('OpenSans-Italic'),
+                url('${grailsApplication.config.serverRoot}/assets/fonts/open-sans-v15-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                url('${grailsApplication.config.serverRoot}/assets/fonts/open-sans-v15-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+                url('${grailsApplication.config.serverRoot}/assets/fonts/open-sans-v15-latin-italic.woff') format('woff'), /* Modern Browsers */
+                url('${grailsApplication.config.serverRoot}/assets/fonts/open-sans-v15-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+                url('${grailsApplication.config.serverRoot}/assets/fonts/open-sans-v15-latin-italic.svg#OpenSans') format('svg'); /* Legacy iOS */
+        }
+        /* open-sans-700 - latin */
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            src: url('${grailsApplication.config.serverRoot}/assets/fonts/open-sans-v15-latin-700.eot'); /* IE9 Compat Modes */
+            src: local('Open Sans Bold'), local('OpenSans-Bold'),
+                url('${grailsApplication.config.serverRoot}/assets/fonts/open-sans-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                url('${grailsApplication.config.serverRoot}/assets/fonts/open-sans-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+                url('${grailsApplication.config.serverRoot}/assets/fonts/open-sans-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+                url('${grailsApplication.config.serverRoot}/assets/fonts/open-sans-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+                url('${grailsApplication.config.serverRoot}/assets/fonts/open-sans-v15-latin-700.svg#OpenSans') format('svg'); /* Legacy iOS */
+        }
+    </style>
 </footer>
