@@ -31,7 +31,7 @@
         </script>
     </g:if>
 
-    <g:set var="recentRecords" value="${grailsApplication.config.serverRoot}/generic-hub/occurrences/search?dir=desc&sort=occurrence_date&fq=&pageSize=100" />
+    <g:set var="recentRecords" value="${grailsApplication.config.serverRoot}/generic-hub/occurrences/search?dir=desc&sort=occurrence_date&fq=&pageSize=20" />
     <g:set var="speciesSearch" value="${grailsApplication.config.serverRoot}/bie-hub/search/" />
     <g:set var="checklistsSearch" value="${grailsApplication.config.serverRoot}/lists/" />
     <g:set var="regionsLink" value="${grailsApplication.config.serverRoot}/regions/" />
@@ -66,14 +66,6 @@
 
         <span class="submenu">
             <div class="submenu__title">
-                <a href="${recentRecords}" class="submenu__title-link" class="submenu__dropdown-link">
-                    <g:message code="menu.records.label" />
-                </a>
-            </div>
-        </span>
-
-        <span class="submenu">
-            <div class="submenu__title">
                 <a href="${collectoryLink}" class="submenu__title-link" class="submenu__dropdown-link">
                     <g:message code="menu.collections.label" />
                 </a>
@@ -84,6 +76,14 @@
             <div class="submenu__title">
                 <a href="${datasetsLink}" class="submenu__title-link">
                     <g:message code="menu.datasets.label" />
+                </a>
+            </div>
+        </span>
+
+        <span class="submenu">
+            <div class="submenu__title">
+                <a href="${recentRecords}" class="submenu__title-link" class="submenu__dropdown-link">
+                    <g:message code="menu.records.label" />
                 </a>
             </div>
         </span>
@@ -125,14 +125,6 @@
 
                 <div class="burger__submenu">
                     <div class="burger__submenu-title">
-                        <a href="${recentRecords}" class="burger__link">
-                            <g:message code="menu.records.label" />
-                        </a>
-                    </div>
-                </div>
-
-                <div class="burger__submenu">
-                    <div class="burger__submenu-title">
                         <a href="${collectoryLink}" class="burger__link">
                             <g:message code="menu.collections.label" />
                         </a>
@@ -143,6 +135,14 @@
                     <div class="burger__submenu-title">
                         <a href="${datasetsLink}" class="burger__link">
                             <g:message code="menu.datasets.label" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="burger__submenu">
+                    <div class="burger__submenu-title">
+                        <a href="${recentRecords}" class="burger__link">
+                            <g:message code="menu.records.label" />
                         </a>
                     </div>
                 </div>
