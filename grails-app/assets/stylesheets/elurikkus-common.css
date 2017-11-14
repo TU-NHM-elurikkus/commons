@@ -148,10 +148,11 @@ input[type="text"] {
     padding-left: 1em;
     text-indent: -1em;
     line-height: 1.3;
+    list-style: none;
 }
 
 .erk-olist__item {
-    padding: 3px 0;
+    padding: 3px 20px;
 }
 
 .erk-form__fieldset {
