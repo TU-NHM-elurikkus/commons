@@ -6,7 +6,7 @@
 //= require popper.min
 //= require bootstrap.min
 
-var GLOBAL_LOCALE_CONF;  // Populated by menu.gsp
+var GLOBAL_LOCALE_CONF; // Populated by menu.gsp
 
 $(document).ready(function() {
     $.i18n.properties({
@@ -43,7 +43,8 @@ function setLanguage() {
     }
 
     // If language on url then we do nothing
-    if(!window.location.search.includes('lang=')) {
+    // Using .indexOf() instead of .includes() because we need to support IE11
+    if(window.location.search.indexOf('lang=') === -1) {
         // If local storage lang is the same as session then all is well in the world
         if(language !== grailsLocale) {
             window.location.search += '&lang=' + language; // Reload the page
