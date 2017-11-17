@@ -5,7 +5,7 @@
     <g:set var="locale" value="${LocaleContextHolder.getLocale().toString()}" />
 
     <a class="elurikkus-menu__brand" href="${grailsApplication.config.serverRoot}/${locale == 'en' ? 'en' : ''}">
-        <img src="${grailsApplication.config.serverRoot}/assets/images/elurikkus_logo.svg" class="logo" />
+        <img src="${grailsApplication.config.serverRoot}/assets/images/elurikkus_logo.svg" class="logo" alt="logo" />
     </a>
 
     <script>
@@ -39,7 +39,7 @@
     <g:set var="datasetsLink" value="${grailsApplication.config.serverRoot}/collectory/public/datasets/" />
     <g:set var="speciesSearch" value="${grailsApplication.config.serverRoot}/bie-hub/search/" />
 
-    <nav class="menu" role="navigation">
+    <nav class="menu">
         <span class="submenu">
             <div class="submenu__title">
                 <a href="${speciesSearch}" class="submenu__title-link" class="submenu__dropdown-link">
@@ -89,12 +89,10 @@
         </span>
     </nav>
 
-    <nav class="burger" role="navigation">
+    <nav class="burger">
         <button type="button" id="burger-open" class="burger__open-button">
-            <div class="burger__open-button-icon">
-                <span class="fa fa-bars">
-                </span>
-            </div>
+            <span class="fa fa-bars">
+            </span>
         </button>
 
         <div id="burger-popup" class="burger__popup">
@@ -148,8 +146,10 @@
                 </div>
 
                 <div class="burger__submenu">
-                    <div class="burger__submenu-title">
-                        <localeSwitcher:localeButton uri="${request.forwardURI}" />
+                    <div class="burger__submenu-contents">
+                        <div class="burger__submenu-entry">
+                            <localeSwitcher:localeButton uri="${request.forwardURI}" styleClass="burger__link" />
+                        </div>
                     </div>
                 </div>
             </div>

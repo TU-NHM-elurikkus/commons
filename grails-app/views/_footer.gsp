@@ -1,4 +1,4 @@
-<footer role="contentinfo">
+<footer>
     <div class="footer">
         <div class="footer-licence">
             <img
