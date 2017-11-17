@@ -1,3 +1,4 @@
+//= require polyfills
 //= require rollbar-config
 //= require rollbar-2.2.10
 //= require jquery
