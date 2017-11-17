@@ -1,3 +1,4 @@
+import elurikkus.commons.CustomLocaleChangeInterceptor
 import elurikkus.commons.ExtendedPluginAwareResourceBundleMessageSource
 
 class ElurikkusCommonsGrailsPlugin {
@@ -49,6 +50,11 @@ class ElurikkusCommonsGrailsPlugin {
             basenames = ["WEB-INF/grails-app/i18n/messages"] as String[]
             cacheSeconds = (60 * 60 * 6) // 6 hours
             useCodeAsDefaultMessage = false
+        }
+
+        // Handle invalid lang values on url
+        localeChangeInterceptor(CustomLocaleChangeInterceptor) {
+            paramName = "lang";
         }
     }
 
