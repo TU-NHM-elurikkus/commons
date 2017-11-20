@@ -852,3 +852,11 @@ section {
     font-size: 14px;
     font-weight: bold;
 }
+
+/* Button border radius normalisation */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    border-radius: 0;
+}
