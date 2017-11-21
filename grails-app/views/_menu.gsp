@@ -1,7 +1,7 @@
 <%@ page import="org.springframework.context.i18n.LocaleContextHolder" %>
 <%@ page import="grails.util.Environment" %>
 
-<header class="header" role="banner">
+<header class="header">
     <g:set var="locale" value="${LocaleContextHolder.getLocale().toString()}" />
 
     <a class="elurikkus-menu__brand" href="${grailsApplication.config.serverRoot}/${locale == 'en' ? 'en' : ''}">
@@ -40,53 +40,53 @@
     <g:set var="speciesSearch" value="${grailsApplication.config.serverRoot}/bie-hub/search/" />
 
     <nav class="menu">
-        <span class="submenu">
+        <div class="submenu">
             <div class="submenu__title">
-                <a href="${speciesSearch}" class="submenu__title-link" class="submenu__dropdown-link">
+                <a href="${speciesSearch}" class="submenu__title-link">
                     <g:message code="menu.species.label" />
                 </a>
             </div>
-        </span>
+        </div>
 
-        <span class="submenu">
+        <div class="submenu">
             <div class="submenu__title">
-                <a href="${checklistsSearch}" class="submenu__title-link" class="submenu__dropdown-link">
+                <a href="${checklistsSearch}" class="submenu__title-link">
                     <g:message code="menu.lists.label" />
                 </a>
             </div>
-        </span>
+        </div>
 
-        <span class="submenu">
+        <div class="submenu">
             <div class="submenu__title">
-                <a href="${regionsLink}" class="submenu__title-link" class="submenu__dropdown-link">
+                <a href="${regionsLink}" class="submenu__title-link">
                     <g:message code="menu.regions.label" />
                 </a>
             </div>
-        </span>
+        </div>
 
-        <span class="submenu">
+        <div class="submenu">
             <div class="submenu__title">
-                <a href="${collectoryLink}" class="submenu__title-link" class="submenu__dropdown-link">
+                <a href="${collectoryLink}" class="submenu__title-link">
                     <g:message code="menu.collections.label" />
                 </a>
             </div>
-        </span>
+        </div>
 
-        <span class="submenu">
+        <div class="submenu">
             <div class="submenu__title">
                 <a href="${datasetsLink}" class="submenu__title-link">
                     <g:message code="menu.datasets.label" />
                 </a>
             </div>
-        </span>
+        </div>
 
-        <span class="submenu">
+        <div class="submenu">
             <div class="submenu__title">
-                <a href="${recentRecords}" class="submenu__title-link" class="submenu__dropdown-link">
+                <a href="${recentRecords}" class="submenu__title-link">
                     <g:message code="menu.records.label" />
                 </a>
             </div>
-        </span>
+        </div>
     </nav>
 
     <nav class="burger">
@@ -161,10 +161,10 @@
     </nav>
 
     <nav id="language-nav">
-        <span class="submenu">
+        <div class="submenu">
             <div class="submenu__title">
                 <localeSwitcher:localeButton uri="${request.forwardURI}" styleClass="submenu__title-link" />
             </div>
-        </span>
+        </div>
     </nav>
 </header>
