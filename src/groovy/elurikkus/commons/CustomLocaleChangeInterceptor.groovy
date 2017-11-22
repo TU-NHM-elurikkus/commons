@@ -28,7 +28,7 @@ class CustomLocaleChangeInterceptor extends LocaleChangeInterceptor {
 
         def localeParam = params?.get(paramName)
         if (!localeParam) {
-            return super.preHandle(request, response, handler)
+            localeParam = "et"
         }
 
         try {
