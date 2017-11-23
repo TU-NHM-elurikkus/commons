@@ -53,7 +53,7 @@ function setLanguage() {
     } else {
         try {
             localStorage.setItem('language', grailsLocale);
-        } catch (e) {
+        } catch(e) {
             // localStorage not available
         }
     }
