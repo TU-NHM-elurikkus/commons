@@ -51,6 +51,10 @@ function setLanguage() {
             window.location.search += '&lang=' + language; // Reload the page
         }
     } else {
-        localStorage.setItem('language', grailsLocale);
+        try {
+            localStorage.setItem('language', grailsLocale);
+        } catch (e) {
+            // localStorage not available
+        }
     }
 }
