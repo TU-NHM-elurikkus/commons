@@ -4,6 +4,7 @@ package elurikkus.commons
 import groovy.transform.CompileStatic
 import org.codehaus.groovy.grails.web.servlet.mvc.GrailsWebRequest
 import org.springframework.beans.propertyeditors.LocaleEditor
+import org.springframework.context.i18n.LocaleContextHolder
 import org.springframework.util.StringUtils
 import org.springframework.web.servlet.i18n.LocaleChangeInterceptor
 import org.springframework.web.servlet.support.RequestContextUtils
@@ -28,7 +29,7 @@ class CustomLocaleChangeInterceptor extends LocaleChangeInterceptor {
 
         def localeParam = params?.get(paramName)
         if (!localeParam) {
-            localeParam = "et"
+            localeParam = LocaleContextHolder.getLocale().toString().substring(0, 2)
         }
 
         try {
