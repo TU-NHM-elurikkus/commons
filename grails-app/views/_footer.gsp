@@ -64,7 +64,6 @@
     <g:else>
         <style>
             /* open-sans-regular - latin */
-            <link href=":400,400italic,700" rel="stylesheet" type="text/css" />
             @font-face {
                 font-family: 'Open Sans';
                 font-style: normal;
