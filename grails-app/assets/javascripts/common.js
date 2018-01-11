@@ -35,26 +35,26 @@ $(document).ready(function() {
 * when moving from one app to another
 */
 function setLanguage() {
-    var grailsLocale = GLOBAL_LOCALE_CONF.locale;
-    var language = localStorage.getItem('language');
+    try {
+        var grailsLocale = GLOBAL_LOCALE_CONF.locale;
+        var language = localStorage.getItem('language');
 
-    // In case this is the first time setting system wide lang
-    if(!language) {
-        language = grailsLocale;
-    }
-
-    // If language on url then we do nothing
-    // Using .indexOf() instead of .includes() because we need to support IE11
-    if(window.location.search.indexOf('lang=') === -1) {
-        // If local storage lang is the same as session then all is well in the world
-        if(language !== grailsLocale) {
-            window.location.search += '&lang=' + language; // Reload the page
+        // In case this is the first time setting system wide lang
+        if(!language) {
+            language = grailsLocale;
         }
-    } else {
-        try {
+
+        // If language on url then we do nothing
+        // Using .indexOf() instead of .includes() because we need to support IE11
+        if(window.location.search.indexOf('lang=') === -1) {
+            // If local storage lang is the same as session then all is well in the world
+            if(language !== grailsLocale) {
+                window.location.search += '&lang=' + language; // Reload the page
+            }
+        } else {
             localStorage.setItem('language', grailsLocale);
-        } catch(e) {
-            // localStorage not available
         }
+    } catch(e) {
+        // localStorage not available
     }
 }
