@@ -376,6 +376,7 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between;
     clear: both;
+    font-size: 14px;
 }
 
 .header--center {
@@ -395,7 +396,8 @@ body {
     align-self: center;
     -ms-flex: 1;
     flex: 1;
-    text-align: right;
+    margin: -6px 0; /* Compensate for menu addon height */
+
     display: none;
 }
 
@@ -405,17 +407,37 @@ body {
 }
 
 @media(min-width: 1050px) {
-    .menu, #language-nav {
+    .menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+    }
+
+    #language-nav {
         display: block;
     }
 }
 
+.menu-addon {
+    color: #666;
+    opacity: .8;
+    border-right: 2px solid rgba(102, 102, 102, .8);
+    padding: 5px 10px;
+    font-size: .8em;
+    font-weight: bold;
+    line-height: 1.2em;
+    letter-spacing: .5px;
+    text-align: right;
+}
 
 .submenu {
-    display: inline-block;
-    text-align: left;
     position: relative;
-    font-size: 14px;
     padding: 0 10px 0 10px;
     color: #666;
 }

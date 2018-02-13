@@ -40,6 +40,10 @@
     <g:set var="speciesSearch" value="${grailsApplication.config.serverRoot}/bie-hub/search/" />
 
     <nav class="menu">
+        <div class="menu-addon">
+            <g:message code="menu.addon.text" />
+        </div>
+
         <div class="submenu">
             <div class="submenu__title">
                 <a href="${speciesSearch}" class="submenu__title-link">
