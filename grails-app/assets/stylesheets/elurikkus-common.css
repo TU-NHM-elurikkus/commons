@@ -429,6 +429,7 @@ body {
     opacity: .8;
     border-right: 2px solid rgba(102, 102, 102, .8);
     padding: 5px 10px;
+    margin-right: 10px;
     font-size: .8em;
     font-weight: bold;
     line-height: 1.2em;
