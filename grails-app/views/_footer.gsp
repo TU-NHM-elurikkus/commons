@@ -23,6 +23,17 @@
 
         <div class="footer-logos">
             <a
+                href="https://natarc.ut.ee"
+                class="footer-logos__logo"
+                title="${message(code: 'footer.logo.title.natarc')}"
+            >
+                <img
+                    src="${grailsApplication.config.serverRoot}/assets/images/natarc_logo_black.svg"
+                    alt="${message(code: 'footer.logo.alt.natarc')}"
+                />
+            </a>
+
+            <a
                 href="http://plutof.ut.ee/"
                 class="footer-logos__logo"
                 title="${message(code: 'footer.logo.title.plutof')}"
