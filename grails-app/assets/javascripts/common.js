@@ -14,6 +14,7 @@ $(document).ready(function() {
         name: 'messages',
         path: GLOBAL_LOCALE_CONF.contextPath + '/messages/i18n/',
         mode: 'map',
+        cache: true,
         language: GLOBAL_LOCALE_CONF.locale
     });
 
