@@ -207,6 +207,12 @@ input:active, textarea:active, select:active {
     height: 2.4rem;
 }
 
+.erk-form-control {
+    display: block;
+    min-height: 30px;
+    width: 100%;
+}
+
 .erk-button {
     color: #3dc8d3;
     border: #3dc8d3 1px solid;
