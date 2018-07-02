@@ -351,6 +351,10 @@ input:active, textarea:active, select:active {
     font-size: 16px;
 }
 
+.erk-text--error {
+    color: #F05850;
+}
+
 body {
     margin: 20px;
 }
