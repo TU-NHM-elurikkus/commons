@@ -256,15 +256,16 @@ input:active, textarea:active, select:active {
 }
 
 .erk-button--light {
-    color: #3a3e42;
+    background-color: #fff;
     border: #cacbcc 1px solid;
+    color: #3a3e42;
     font-weight: 400;
 }
 
 .erk-button--light:hover, .erk-button--light:active {
-    color: #3a3e42;
+    background-color: #fff;
     border-color: #8b8d8e;
-    background-color: transparent;
+    color: #3a3e42;
 }
 
 .erk-button--light:active {
