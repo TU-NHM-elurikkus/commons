@@ -6,5 +6,6 @@ var _rollbarConfig = {
     captureUnhandledRejections: true,
     payload: {
         environment: GRAILS_APP.environment
-    }
+    },
+    hostBlackList: ['translate.googleusercontent.com'],
 };
