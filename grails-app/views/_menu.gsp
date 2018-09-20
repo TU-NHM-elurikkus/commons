@@ -31,7 +31,7 @@
         </script>
     </g:if>
 
-    <g:set var="recentRecords" value="${grailsApplication.config.serverRoot}/generic-hub/occurrences/search?dir=desc&sort=occurrence_date&fq=country:Estonia&pageSize=20" />
+    <g:set var="recentRecords" value="${grailsApplication.config.serverRoot}/generic-hub/occurrences/search?dir=desc&fq=country:Estonia" />
     <g:set var="speciesSearch" value="${grailsApplication.config.serverRoot}/bie-hub/search/" />
     <g:set var="checklistsSearch" value="${grailsApplication.config.serverRoot}/lists/" />
     <g:set var="regionsLink" value="${grailsApplication.config.serverRoot}/regions/" />
