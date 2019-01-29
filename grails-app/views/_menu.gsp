@@ -32,12 +32,11 @@
     </g:if>
 
     <g:set var="recentRecords" value="${grailsApplication.config.serverRoot}/generic-hub/occurrences/search?dir=desc&fq=country:Estonia" />
-    <g:set var="speciesSearch" value="${grailsApplication.config.serverRoot}/bie-hub/search/" />
+    <g:set var="speciesSearch" value="${grailsApplication.config.serverRoot}/bie-hub/search/?fq=rank%3Aspecies" />
     <g:set var="checklistsSearch" value="${grailsApplication.config.serverRoot}/lists/" />
     <g:set var="regionsLink" value="${grailsApplication.config.serverRoot}/regions/" />
     <g:set var="collectoryLink" value="${grailsApplication.config.serverRoot}/collectory/" />
     <g:set var="datasetsLink" value="${grailsApplication.config.serverRoot}/collectory/public/datasets/" />
-    <g:set var="speciesSearch" value="${grailsApplication.config.serverRoot}/bie-hub/search/" />
 
     <nav class="menu">
         <div class="menu-addon">
