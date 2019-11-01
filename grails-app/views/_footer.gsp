@@ -24,6 +24,7 @@
         <div class="footer-logos">
             <a
                 href="https://natarc.ut.ee"
+                target="_blank"
                 class="footer-logos__logo"
                 title="${message(code: 'footer.logo.title.natarc')}"
             >
@@ -35,6 +36,7 @@
 
             <a
                 href="http://plutof.ut.ee/"
+                target="_blank"
                 class="footer-logos__logo"
                 title="${message(code: 'footer.logo.title.plutof')}"
             >
@@ -46,6 +48,7 @@
 
             <a
                 href="http://www.ala.org.au/"
+                target="_blank"
                 class="footer-logos__logo"
                 title="${message(code: 'footer.logo.title.ala')}"
             >
@@ -57,12 +60,25 @@
 
             <a
                 href="http://www.gbif.org/"
+                target="_blank"
                 class="footer-logos__logo"
                 title="${message(code: 'footer.logo.title.gbif')}"
             >
                 <img
                     src="${grailsApplication.config.serverRoot}/assets/images/GBIF_2015_logo.svg"
                     alt="${message(code: 'footer.logo.alt.gbif')}"
+                />
+            </a>
+
+            <a
+                href="http://dissco.eu/"
+                target="_blank"
+                class="footer-logos__logo"
+                title="${message(code: 'footer.logo.title.dissco')}"
+            >
+                <img
+                    src="${grailsApplication.config.serverRoot}/assets/images/dissco_logo.png"
+                    alt="${message(code: 'footer.logo.alt.dissco')}"
                 />
             </a>
         </div>
