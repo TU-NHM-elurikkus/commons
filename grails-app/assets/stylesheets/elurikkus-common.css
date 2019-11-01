@@ -669,7 +669,7 @@ section {
     margin-right: -.5rem;
 }
 
-@media(max-width: 598.5px) {
+@media(max-width: 747px) {
     .footer-logos {
         -ms-flex: 0;
         flex: 0;
