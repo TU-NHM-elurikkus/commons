@@ -81,6 +81,28 @@
                     alt="${message(code: 'footer.logo.alt.dissco')}"
                 />
             </a>
+
+            <a
+                href="https://www.elus.ee/"
+                target="_blank"
+                title="${message(code: 'footer.logo.title.elus')}"
+                class="footer-logos__logo"
+            >
+                <img
+                    src="${grailsApplication.config.serverRoot}/assets/images/ELUS_logo.svg"
+                    alt="ELUS logo" />
+            </a>
+
+            <a
+                href="https://www.eoy.ee/"
+                target="_blank"
+                title="${message(code: 'footer.logo.title.eoy')}"
+                class="footer-logos__logo"
+            >
+                <img
+                    src="${grailsApplication.config.serverRoot}/assets/images/EOY_logo.svg"
+                    alt="EOY logo" />
+            </a>
         </div>
     </div>
 
