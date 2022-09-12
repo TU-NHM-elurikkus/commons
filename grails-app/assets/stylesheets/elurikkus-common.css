@@ -666,20 +666,28 @@ section {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -.5rem;
+    -ms-flex: 2;
+        flex: 2;
 }
 
-@media(max-width: 747px) {
+@media(max-width: 900px) {
+    .footer-logos {
+        -ms-flex: 1;
+        flex: 1;
+    }
+}
+
+@media(max-width: 450px) {
     .footer-logos {
         -ms-flex: 0;
-        flex: 0;
+            flex: 0;
     }
 }
 
 .footer-logos__logo {
     display: inline-block;
     margin: .25rem .5rem .5rem .5rem;
-    height: 2rem;
+    height: 2.33rem;
 }
 
 .footer-logos__logo img {
