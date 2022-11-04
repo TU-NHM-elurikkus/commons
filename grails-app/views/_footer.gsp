@@ -12,7 +12,7 @@
             <div class="footer-licence__text">
                 <g:message code="footer.license.01" />
                 <a
-                    href="http://creativecommons.org/licenses/by/4.0/"
+                    href="https://creativecommons.org/licenses/by/4.0/"
                     title="${message(code: 'footer.license.href.title')}"
                 >
                     <g:message code="footer.license.02" />
@@ -35,7 +35,7 @@
             </a>
 
             <a
-                href="http://plutof.ut.ee/"
+                href="https://plutof.ut.ee/"
                 target="_blank"
                 class="footer-logos__logo"
                 title="${message(code: 'footer.logo.title.plutof')}"
@@ -47,7 +47,7 @@
             </a>
 
             <a
-                href="http://www.ala.org.au/"
+                href="https://www.ala.org.au/"
                 target="_blank"
                 class="footer-logos__logo"
                 title="${message(code: 'footer.logo.title.ala')}"
@@ -59,7 +59,7 @@
             </a>
 
             <a
-                href="http://www.gbif.org/"
+                href="https://www.gbif.org/"
                 target="_blank"
                 class="footer-logos__logo"
                 title="${message(code: 'footer.logo.title.gbif')}"
@@ -71,7 +71,7 @@
             </a>
 
             <a
-                href="http://dissco.eu/"
+                href="https://www.dissco.eu/"
                 target="_blank"
                 class="footer-logos__logo"
                 title="${message(code: 'footer.logo.title.dissco')}"
