@@ -648,11 +648,29 @@ section {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin: 2rem -1rem;
+    justify-content: center;
 }
 
 .footer-logos__logo {
     height: 2.33rem;
-    margin: 0.75rem 1rem;
+    margin: 1rem;
+    flex: 1 0 21%;
+    text-align: center;
+}
+
+@media(max-width: 450px) {
+    .footer-logos__logo {
+        flex: 1 0 50%;
+        margin: 1.5rem 1rem;
+    }
+}
+
+.footer-logos__logo--medium {
+    height: 3rem;
+}
+
+.footer-logos__logo--large {
+    height: 4rem;
 }
 
 .footer-logos__logo img {
