@@ -54,7 +54,7 @@
             <a
                 href="https://www.dissco.eu/"
                 target="_blank"
-                class="footer-logos__logo"
+                class="footer-logos__logo footer-logos__logo--medium"
                 title="${message(code: 'footer.logo.title.dissco')}"
             >
                 <img
@@ -67,7 +67,7 @@
                 href="https://www.elus.ee/"
                 target="_blank"
                 title="${message(code: 'footer.logo.title.elus')}"
-                class="footer-logos__logo"
+                class="footer-logos__logo footer-logos__logo--medium"
             >
                 <img
                     src="${grailsApplication.config.serverRoot}/assets/images/ELUS_logo.svg"
@@ -78,30 +78,36 @@
                 href="https://www.eoy.ee/"
                 target="_blank"
                 title="${message(code: 'footer.logo.title.eoy')}"
-                class="footer-logos__logo"
+                class="footer-logos__logo footer-logos__logo--medium"
             >
                 <img
                     src="${grailsApplication.config.serverRoot}/assets/images/EOY_logo.svg"
                     alt="EOY logo" />
             </a>
 
-            <div class="footer-licence">
+            <div class="footer-logos__logo footer-logos__logo--large">
                 <img
-                    class="footer-licence__logo"
-                    src="${grailsApplication.config.serverRoot}/assets/images/creative_commons_logo.svg"
-                    alt="${message(code: 'footer.logo.alt.license')}"
-                />
+                    src="${grailsApplication.config.serverRoot}/assets/images/EURF_logo_est.jpeg"
+                    alt="EL Regionaalarengu Fond" />
+            </div>
+        </div>
 
-                <div class="footer-licence__text">
-                    <g:message code="footer.license.01" />
-                    <a
-                        href="https://creativecommons.org/licenses/by/4.0/"
-                        title="${message(code: 'footer.license.href.title')}"
-                    >
-                        <g:message code="footer.license.02" />
-                    </a>
-                    <g:message code="footer.license.03" />
-                </div>
+        <div class="footer-licence">
+            <img
+                class="footer-licence__logo"
+                src="${grailsApplication.config.serverRoot}/assets/images/creative_commons_logo.svg"
+                alt="${message(code: 'footer.logo.alt.license')}"
+            />
+
+            <div class="footer-licence__text">
+                <g:message code="footer.license.01" />
+                <a
+                    href="https://creativecommons.org/licenses/by/4.0/"
+                    title="${message(code: 'footer.license.href.title')}"
+                >
+                    <g:message code="footer.license.02" />
+                </a>
+                <g:message code="footer.license.03" />
             </div>
         </div>
     </div>
